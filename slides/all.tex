@@ -1,0 +1,68 @@
+\documentclass[]{beamer}
+
+\usetheme{Montpellier}
+\usecolortheme{rose}
+ 
+%\usepackage{pgfpages}\pgfpagesuselayout{4 on 1}[a4paper, landscape, border shrink=5mm]
+
+\AtBeginSection[]  % The commands within the following {} will be executed at the start of each section.
+{
+    \begin{frame} % Within each "frame" there will be one or more "slides."
+    \frametitle{Presentation Outline} % This is the title of the outline.
+    \tableofcontents[currentsection]  % This will display the table of contents and highlight the current section.
+    \end{frame}
+} % Do not include the preceding set of commands if you prefer not to have a recurring outline displayed during your$
+
+\setbeamertemplate{footline}[page number]{}	%gets rid of bottom navigation bars
+\setbeamertemplate{navigation symbols}{}	%gets rid of navigation symbols
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+
+\bibliographystyle{plain}
+
+\usepackage{color}
+\definecolor{BlueViolet} {HTML}{473992}
+\definecolor{Marroon}    {HTML}{AF3235}
+\definecolor{ForestGreen}{HTML}{009B55}
+\definecolor{OliveGreen} {HTML}{3C8031}
+\definecolor{fuchsia}    {HTML}{8C368C}
+
+\title{System 101}
+\author{Maël Auzias}
+\institute{ENSIBS - UBS}
+\date{March 2016}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  \begin{figure}[p]
+      \centering
+      \includegraphics[height=1cm]{./imgs/cc40.jpg}
+      \caption{\color{blue}\href{http://sys-101.auzias.net}{sys-101.auzias.net}}
+    \label{fig:cc40}
+  \end{figure}
+\end{frame}
+
+\include{0-intro}
+\include{1-what_is_an_os}
+
+\begin{frame}
+    \frametitle{I hope you liked it and learnt something new !}
+  \begin{figure}[p]
+      \centering
+      \includegraphics[height=1cm]{./imgs/cc40.jpg}
+      \caption{\color{blue}\href{http://sys-101.auzias.net}{sys-101.auzias.net}}
+    \label{fig:cc40}
+  \end{figure}
+\end{frame}
+
+\end{document}
