@@ -1,6 +1,8 @@
 ### Teaching material on Operating System 101
 
 ### TODO:
- [ ] Add a licence
+ [x] Add a licence
+ [ ] Add a licence into the README.md
  [ ] Add a verbose description
- [ ] Create the website
+ [x] Create the website webpage
+ [ ] Create the website DN and set the git webhook
