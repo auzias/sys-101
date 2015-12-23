@@ -1,24 +1,89 @@
-\section{Physical}
-
+\section{What is an OS?}
   \begin{frame}
-    \frametitle{Aims}
-      \begin{itemize}
-        \item Interface data link layer,
-        \item (De)Encode,
-        \item Transmit: 1 after 0 (after 0 or 1, after 0... or 1)
-      \end{itemize}
+    \frametitle{Operating System}
+    \begin{figure}[t]
+      \centering
+      \includegraphics[height=6cm]{./imgs/os.pdf}
+      \label{fig:os}
+    \end{figure}
   \end{frame}
 
   \begin{frame}
-    \frametitle{Hardware medium}
-      \begin{itemize}
-        \item IEEE 802.3 (a.k.a. Ethernet): $<$100Gbit/s
-        \item IEEE 802.11 (a.k.a. Wi-Fi): $<$50 Mbit/s (802.11ad goes up to 6.75 Gbit/s)
-        \item IEEE 802.15.1 (a.k.a. Bluetooth): $<$1 Mbit/s
-        \item IEEE 802.15.4 (a.k.a. ZigBee): $<$250 kbit/s
-        \item IEEE 802.16 (a.k.a. Wi-Max): $<$40 Mbit/s
-        \item IEEE 1394 (a.k.a. Firewire): $<$3200 Mbit/s
-        \item USB, serial port such as RS-232...
-      \end{itemize}
+    \frametitle{Operating System}
+        \begin{block}{Two basic unrelated functions}
+          \begin{itemize}
+            \item provide application programmers a clean abstract set of resources,
+            \item manage hardware resources.
+          \end{itemize}
+        \end{block}
+
+        \begin{block}{Customers}
+          OS real customers are \textbf{programs developpers}, not end users of theses developped programs.
+        \end{block}
   \end{frame}
 
+  \begin{frame}
+    \frametitle{The OS as an API provider}
+        \begin{block}{Abstraction challenge}
+          \begin{itemize}
+            \item Hardware design, as well made as it can be, only offer awkward and ugly interface to communicate.
+            \item Instruction set, memory organization, I/O, bus structure are not user friendly.
+            \item Programers need not to worry about all of that thanks to the \textbf{abstraction level} provided by OS.
+          \end{itemize}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{The OS as the resource manager}
+        \begin{block}{Resource challenge}
+          \begin{itemize}
+            \item Orderly allocation of the processors, memoriesy, I/O devices for all the programs competing for them.
+            \item Software resources (files, DB, network access) are also managed by the OS.
+            \item Multiplexing:
+              \begin{itemize}
+                \item Time multiplexing (CPU, printer),
+                \item Space multiplexing (RAM, disk).
+              \end{itemize}
+          \end{itemize}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{The OS history}
+        \begin{block}{}
+          \begin{description}
+            \item[1945-55] First generation: vaccum tubes
+            \item[1955-65] Second generation: Transistors and Batch Systems
+            \item[1965-80] Third generation: ICs\footnote{Integrated Circuit} and Multiprogramming\footnote{several programs running at once}
+            \item[1980-now] Fourth generation: Personal Computers
+            \item[future] Fifth generation: any suggestion?
+          \end{description}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{The OS Zoo}
+        \begin{block}{}
+          \begin{description}
+%\visible<1-1>{
+            \item[Mainframe] Thousands of disks and millions gigabytes of data (high end web servers, servers for business-to-business transactions). Theses OS are focused on executing many jobs at once.
+            \item[Server] Multiple users served at once through a network, they provide print/file/web services.
+            \item[Multiprocessor] Multiples CPUs are hosted into one system (also called, according to what and how they share it: parallel computers, multicomputers, or multiprocessors).
+            \item[Personal Computers] Usually used for game, spreadsheet, word processing and web browsing (laptop, desktop).
+          \end{description}
+        \end{block}
+  \end{frame}
+%}\visible<2-2>{
+  \begin{frame}
+    \frametitle{The OS Zoo}
+        \begin{block}{}
+          \begin{description}
+            \item[Handheld] Small computers offering telephony, address book, web apps. They are becoming more and more sophisticated and blurring the difference between personal computers and handheld computers.
+            \item[Embedded] Microwave ovens, (non-smart) TV and swatches, (not connected) cars, Bluray readers... They usual do not allow user-installed softwares.
+            \item[Sensor Node] Usually small and simple to run on constraint devices with little RAM/ROM and battery life (TinyOS).
+            \item[RTS\footnote{Real-Time System}] Industrial process control, avionics, military...
+            \item[Smart Card] Credit card.
+%}
+          \end{description}
+        \end{block}
+  \end{frame}
