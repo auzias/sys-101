@@ -1,0 +1,140 @@
+\section{OS Concepts}
+  \begin{frame}
+    \frametitle{OS Concepts}
+        \begin{block}{Overview}
+          \begin{itemize}
+            \item Processes,
+            \item Address spaces,
+            \item Files,
+            \item Input/Output,
+            \item Protection,
+            \item Shell.
+          \end{itemize}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Processes}
+    A process is a program being executed. Each process:
+    \begin{itemize}
+      \item has an address space (\textbf{core image}),
+      \item has a register (program counter and stack pointer),
+      \item has a list of open files,
+      \item has a list of related processes
+      \item and all the details needed to run a program.
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Process}
+      \begin{block}{OS management of Processes}
+        \begin{itemize}
+          \item Execute,
+          \item Save execution state (file pointers list, number of bytes to be read next) in a \textbf{process table}\footnote{An array or linked list},
+          \item Stop.
+        \end{itemize}
+      \end{block}
+    A process corresponds to its \textbf{core image} and its \textbf{process table entry}.
+  \end{frame}
+  \begin{frame}
+    \frametitle{Child Process}
+      \begin{block}{Process life}
+        \begin{itemize}
+          \item A \textbf{system call} starts a process.
+          \item Binary code is executed.
+            \begin{itemize}
+              \item The process can create other processes, called \textbf{child processes} (and so on -- tree).
+              \item Processes can communicate together using \textbf{IPC}\footnote{Inter Process Communication}.
+            \end{itemize}
+          \item The OS may send \textbf{alarm} signal (interruption) to the process.
+          \item The process executes a \textbf{system call} to terminates itself.
+        \end{itemize}
+      \end{block}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Users Process}
+      \begin{block}{Process life}
+        \begin{itemize}
+          \item \textbf{UID}\footnote{User Identification} is a unique number assigned to each system user.
+          \item Every process started has the UID of the user who started it.
+          \item Every child process has the UID of its parent.
+          \item One UID is called the super-user. The super-user has all permission.
+          \item Users may also be members of groups. Each group has a \textbf{GID}.
+        \end{itemize}
+      \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Address Space}
+    An address space is a memory location (from 0 to some maximum) and contains:
+      \begin{itemize}
+        \item executable program,
+        \item program's data,
+        \item its stack.
+      \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Address Space}
+      \begin{itemize}
+        \item Physical memory,
+        \item Virtual memory.
+      \end{itemize}
+  \end{frame}
+
+
+  \begin{frame}
+    \frametitle{File}
+    OS are expected to hide all peculiar disk operations to offer abstracted model of device-independent file management.
+      \begin{itemize}
+        \item System calls are required to:
+        \begin{itemize}
+          \item Create, remove, read and write files; create and remove directories.
+        \end{itemize}
+        \item File system also match a tree structure.
+      \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{File}
+      \begin{itemize}
+        \item Path
+          \begin{itemize}
+            \item Absolute: from the root directory, starting with /
+            \item Relative: from the current directory\footnote{each process has a current working directory. A system call allows process to change their working directory}, starting with "./" or a directory name.
+          \end{itemize}
+        \item Several files may have the same name.
+        \item Each file has a unique absolute path (and an infinity of relative ones).
+        \item Mounted file system, merging trees.
+        \item Special files (so I/O devices are abstracted to be used through same system calls as files do):
+          \begin{itemize}
+            \item Block files,
+            \item Character files.
+            \item Special files are kept in /dev.
+          \end{itemize}
+      \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Special Files}
+      I/O devices are abstracted to be used through same system calls as files do.
+      \begin{itemize}
+        \item Devices:
+          \begin{itemize}
+            \item Block files,
+            \item Character files.
+            \item Special files are kept in /dev.
+          \end{itemize}
+        \item Pipe:
+          \begin{itemize}
+            \item IPC mean,
+            \item a special system call needs to be performed to known it's not a real file.
+          \end{itemize}
+      \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Tree}
+      \begin{itemize}
+        \item Both process and file are structured as tree.
+        \item Process tree are usually not very deep, unlike file trees.
+        \item Process hierarchy are usually short-lived (minutes or less) while directories may exist for years.
+        \item Ownership and protection differs too.
+      \end{itemize}
+  \end{frame}
