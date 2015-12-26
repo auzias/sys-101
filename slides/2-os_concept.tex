@@ -7,7 +7,7 @@
             \item Address spaces,
             \item Files,
             \item Input/Output,
-            \item Protection,
+            \item Permissions,
             \item Shell.
           \end{itemize}
         \end{block}
@@ -137,4 +137,42 @@
         \item Process hierarchy are usually short-lived (minutes or less) while directories may exist for years.
         \item Ownership and protection differs too.
       \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Permissions} 
+    \center{\textbf{\Large{
+	{\color{OliveGreen}u}
+	{\color{Marroon}g}
+	{\color{fuchsia}o}
+        }
+        :
+	{\color{OliveGreen}user}
+	{\color{Marroon}group}
+	{\color{fuchsia}other}
+      }}
+      \begin{itemize}
+        \item Three 3-bit fields
+          \begin{itemize}
+            \item r{\color{gray}ead}
+            \item w{\color{gray}rite}
+            \item {\color{gray}e}x{\color{gray}ecute}
+          \end{itemize}
+        \item {\color{OliveGreen}rwx} {\color{Marroon}rwx} {\color{fuchsia}rwx} do-what-ever-you-want-file
+        \item {\color{OliveGreen}rwx} {\color{Marroon}rwx} {\color{fuchsia}r-x} web-file
+        \item {\color{OliveGreen}rw-} {\color{Marroon}rwx} {\color{fuchsia}rwx} virus
+        \item {\color{OliveGreen}r-x} {\color{Marroon}---} {\color{fuchsia}---} personal-backup.tgz
+      \end{itemize}
+    \begin{figure}
+      \centering
+      \begin{tabular}{l|c|c}
+        Right  & File  & Directory \\ \hline
+        r & can read   & can list files \\ \hline
+        w & can write  & can add/delete files \\ \hline
+        x & can execute& can go through \\ \hline
+      \end{tabular}
+      \caption{Permissions meaning}
+      \label{fig:tab-right}
+    \end{figure}
+
   \end{frame}
