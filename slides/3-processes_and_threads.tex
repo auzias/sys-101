@@ -1,0 +1,107 @@
+\section{Processes and Thread}
+  \begin{frame}
+    \frametitle{Processes and Thread}
+        \begin{block}{Overview}
+          \begin{itemize}
+            \item Why processes are so important?
+            \item What differences between processes and threads?
+            \item ==
+          \end{itemize}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Processes}
+        \begin{itemize}
+          \item Most important abstraction,
+          \item Turn single-CPU into multipe virtual CPU
+          \item Enable pseudo concurrent operations (pseudoparallelism),
+          \item Without, modern computing could not exit.
+        \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Processes}
+        \begin{block}{Processes}
+          \begin{itemize}
+            \item are instance of executing program
+            \item include currents values of
+              \begin{itemize}
+                \item program counter,
+                \item registers,
+                \item variables.
+              \end{itemize}
+            \item have their own virtual CPU (multiprogramming) -- considerations about time management, RTS.
+          \end{itemize}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{The student partying (a fictionnal analogy)}
+        \begin{itemize}
+          \item The student, at a home party, makes a cocktail.
+          \begin{itemize}
+            \item Student: CPU, recipe: program, drinks: data, glasses: resource, action: process.
+          \end{itemize}
+          \item While pouring the last ingredient her/his phone rang and s/he answers.
+          \begin{itemize}
+            \item Student: CPU, phone-skill: program, phone: resource, phone call details: data, action: process.
+          \end{itemize}
+        \end{itemize}
+	A process is an activity having a program, input, output and a state. OS uses scheduling algorith to determines when to stop/start which process.
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Processes}
+        \begin{itemize}
+          \item Most important abstraction,
+          \item Turn single-CPU into multipe virtual CPU
+          \item Enable pseudo concurrent operations (pseudoparallelism),
+          \item Without, modern computing could not exit.
+        \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Processes}
+        \begin{block}{Creation}
+          \begin{itemize}
+            \item System initialization,
+            \item Process creation done by a running process,
+            \item User request,
+            \item Initiation of a batch jobs.
+          \end{itemize}
+        \end{block}
+
+        \begin{block}{Termination}
+          \begin{columns}[onlytextwidth]
+            \begin{column}{0.4\textwidth}
+              \begin{itemize}
+                \item Voluntary
+                \begin{itemize}
+                  \item Normal exit,
+                  \item Error exit.
+                \end{itemize}
+              \end{itemize}
+            \end{column}
+            \begin{column}{0.6\textwidth}
+              \begin{itemize}
+                \item Involuntary
+                \begin{itemize}
+                  \item Fatal error,
+                  \item Killed by another process.
+                \end{itemize}
+              \end{itemize}
+            \end{column}
+          \end{columns}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Process states}
+        \begin{itemize}
+          \item Running,
+          \item Ready,
+          \item Blocked.
+        \end{itemize}
+  \end{frame}
+
