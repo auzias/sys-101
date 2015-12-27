@@ -55,7 +55,7 @@
     \frametitle{Processes}
         \begin{itemize}
           \item Most important abstraction,
-          \item Turn single-CPU into multipe virtual CPU
+          \item Turn single-CPU into multipe virtual CPU,
           \item Enable pseudo concurrent operations (pseudoparallelism),
           \item Without, modern computing could not exit.
         \end{itemize}
@@ -98,10 +98,33 @@
 
   \begin{frame}
     \frametitle{Process states}
-        \begin{itemize}
-          \item Running,
-          \item Ready,
-          \item Blocked.
-        \end{itemize}
+        \begin{block}{State}
+          \begin{enumerate}[a.]
+            \item Running,
+            \item Ready,
+            \item Blocked.
+          \end{enumerate}
+        \end{block}
+        \begin{block}{Transition}
+          \begin{enumerate}[1.]
+            \item Scheduler pick another process.
+            \item Scheduler pick this process.
+            \item Input available.
+            \item Input required.
+          \end{enumerate}
+        \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Threads}
+        \begin{block}{Threads}
+          \begin{enumerate}
+            \item Processes within a process.
+            \item Enable to decompose big task into multiple sequential smaller tasks ..
+            \item .. while \textbf{sharing} a memory space.
+            \item Easier, faster, to create and destroy than processes as they are lighter.
+          \end{enumerate}
+        \end{block}
+	Web browser example with multiple threads.
   \end{frame}
 
