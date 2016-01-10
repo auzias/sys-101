@@ -14,21 +14,24 @@
 
   \begin{frame}
     \frametitle{Processes}
-    A process is a program being executed. Each process:
-    \begin{itemize}
-      \item has an address space (\textbf{core image}),
-      \item has a register (program counter and stack pointer),
-      \item has a list of open files,
-      \item has a list of related processes
-      \item and all the details needed to run a program.
-    \end{itemize}
+    A process is a program being executed.
+    \begin{block}{Each process:}
+      \begin{itemize}
+        \item has an address space (\textbf{core image}),
+        \item has a register (program counter and stack pointer),
+        \item has a list of open files,
+        \item has a list of related processes,
+        \item and all the details needed to run a program.
+      \end{itemize}
+    \end{block}
   \end{frame}
+
   \begin{frame}
     \frametitle{Process}
       \begin{block}{OS management of Processes}
         \begin{itemize}
           \item Execute,
-          \item Save execution state (file pointers list, number of bytes to be read next) in a \textbf{process table}\footnote{An array or linked list},
+          \item Save execution state (file pointers list, number of bytes to be read next) in a \textbf{process table}\footnote{Array or linked list},
           \item Stop.
         \end{itemize}
       \end{block}
@@ -42,7 +45,7 @@
           \item Binary code is executed.
             \begin{itemize}
               \item The process can create other processes, called \textbf{child processes} (and so on -- tree).
-              \item Processes can communicate together using \textbf{IPC}\footnote{Inter Process Communication}.
+              \item Processes can communicate together using \textbf{IPC} means\footnote{Inter Process Communication}.
             \end{itemize}
           \item The OS may send \textbf{alarm} signal (interruption) to the process.
           \item The process executes a \textbf{system call} to terminates itself.
@@ -68,21 +71,21 @@
       \begin{itemize}
         \item executable program,
         \item program's data,
-        \item its stack.
+        \item program's stack.
       \end{itemize}
   \end{frame}
   \begin{frame}
     \frametitle{Address Space}
       \begin{itemize}
         \item Physical memory,
-        \item Virtual memory.
+        \item Virtual memory (swap).
       \end{itemize}
   \end{frame}
 
 
   \begin{frame}
     \frametitle{File}
-    OS are expected to hide all peculiar disk operations to offer abstracted model of device-independent file management.
+    OS hide all peculiar disk operations to offer abstracted model of device-independent file management.
       \begin{itemize}
         \item System calls are required to:
         \begin{itemize}
@@ -102,12 +105,6 @@
         \item Several files may have the same name.
         \item Each file has a unique absolute path (and an infinity of relative ones).
         \item Mounted file system, merging trees.
-        \item Special files (so I/O devices are abstracted to be used through same system calls as files do):
-          \begin{itemize}
-            \item Block files,
-            \item Character files.
-            \item Special files are kept in /dev.
-          \end{itemize}
       \end{itemize}
   \end{frame}
   \begin{frame}
@@ -139,7 +136,7 @@
   \end{frame}
 
   \begin{frame}
-    \frametitle{Permissions} 
+    \frametitle{Permissions}
     \center{\textbf{\Large{
 	{\color{OliveGreen}u}
 	{\color{Marroon}g}
