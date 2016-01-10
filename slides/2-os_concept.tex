@@ -171,3 +171,36 @@
       \label{fig:tab-right}
     \end{figure}
   \end{frame}
+
+
+  \begin{frame}
+    \frametitle{Boot procedure}
+    The BIOS\footnote{Bask Input Output System: low level I/O software system program present on the parentboard} contains the procedures to read the keyboard, write to the screen, perform I/O on disk. Held in RAM, OS can modify it when bugs are found.     
+    \begin{enumerate}
+      \item The BIOS is started,
+      \item The BIOS checks how much RAM is available,
+      \item The BIOS verifies if keyboard, mouse (and other basic devices) are correctly installed and responding,
+      \item The BIOS scans PCI and ISA\footnote{Industry Standard Architecture} buses to detect attached devices,
+        \begin{enumerate}
+          \item If new devices are found since last boot, these new devices are configured.
+        \end{enumerate}
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Boot procedure}
+    \begin{enumerate}
+    \setcounter{enumi}{4}
+      \item The BIOS determines the boot device (floppy? CD-ROM? DVD? USB? ...?) by using a list of devices stored in CMOS memory,
+      \item The program contained at the first sector of the boot device is executed,
+        \begin{enumerate}
+          \item It usually examines the partition table at the end of the boot sector to determine which partition is active.
+          \item A secondary boot loader is read from that partition.
+          \item This loader reads the operation system from the active partition and starts it.
+        \end{enumerate}
+      \item The OS queries the BIOS to get configuration details,
+      \item The OS checks the driver of each device,
+      \item The OS loads all these modules into the kernel,
+      \item The OS initializes its table, creates background processes and starts up a login program.
+    \end{enumerate}
+  \end{frame}
