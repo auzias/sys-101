@@ -1,0 +1,95 @@
+\section{System Calls}
+\begin{frame}
+  \frametitle{System calls}
+  \begin{block}{System operations}
+    \begin{itemize}
+      \item Read file, create directory or a process, modify permissions ..
+      \item .. results in a system call.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{System calls}
+  \begin{block}{System calls procedure}
+    \begin{enumerate}
+      \item Switch from the program, within the user space, into the kernel space by executing a \textsc{trap} instruction.
+      \item The program starts the execution at a \textbf{fixed} address in the kernel space.
+      \item The kernel code then examine the system call number and execute the matching system call handler.
+      \item The system call handler execute its code and then returnes the control to the program at the instruction following the \textsc{trap} instruction.
+        \begin{itemize}
+          \item unless the system call blocks (i.e., waiting for an input on the keyboard).
+        \end{itemize}
+      \item The program is put back into user space and continues.
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Main system calls: Process management}
+  \begin{figure}
+    \centering
+    \begin{tabular}{l|c}
+      Call                  & Description \\ \hline
+      {\scriptsize pid = fork()}          & Create a child process \\ & (identical to the parent) \\ \hline
+      {\scriptsize pid = waitpid(pid, \&stat, opt)} &  Waif for a child to terminate \\ \hline
+      {\scriptsize s = execve(name, argv, envp)} & Execute a program \\ \hline
+      {\scriptsize exit(status)} & Terminate a process and return status \\ \hline
+    \end{tabular}
+    \caption{Process management}
+    \label{fig:sys-call_process}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Main system calls: File management}
+  \begin{figure}
+    \centering
+    \begin{tabular}{l|c}
+      Call                  & Description \\ \hline
+      {\scriptsize fd = open(file, flags)}          & Open (or create) a file \\ \hline
+      {\scriptsize close(fd)} &  Close a file \\ \hline
+      {\scriptsize n = read(fd, buff, nbytes)} & Read data from a file into a buffer \\ \hline
+      {\scriptsize n = write(fd, buff, nbytes)} & Write data from a buffer into a file \\ \hline
+      {\scriptsize p = lseek(fd, offset, whence)} & Reposition the pointer within the file \\ \hline
+      {\scriptsize s = stat(name, buff)} & Get file status \\ \hline
+    \end{tabular}
+    \caption{File management}
+    \label{fig:sys-call_file}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Main system calls: Directory and file system management}
+  \begin{figure}
+    \centering
+    \begin{tabular}{l|c}
+      Call                  & Description \\ \hline
+      {\scriptsize s = mkdir(name, mode)}          & Create a directory \\ \hline
+      {\scriptsize s = rmdir(name)}          & Delete a directory \\ \hline
+      {\scriptsize s = link(oldpath, newpath)}          & Make a new name for a file \\ \hline
+      {\scriptsize s = unlink(path)}          & Delete a name and possibly the file it refers to \\ \hline
+      {\scriptsize s = mount(s, t, fst, f, d)}          & Mount a filesystem \\ \hline
+      {\scriptsize s = umount(target)}          & Unmount a filesystem \\ \hline
+    \end{tabular}
+    \caption{Directory and file system management}
+    \label{fig:sys-call_dir}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Main system calls: Miscellaneous management}
+  \begin{figure}
+    \centering
+    \begin{tabular}{l|c}
+      Call                  & Description \\ \hline
+      {\scriptsize s = chdir(dirname)}          & Change the working directory \\ \hline
+      {\scriptsize s = chmod(name, mode)}       & Change a file's protection bits \\ \hline
+      {\scriptsize s = kill(pid, signal)}       & Send a signal to a process \\ \hline
+      {\scriptsize seconds = time(\&seconds)}    & Get the elapsed time since 01/01/70 \\ \hline
+    \end{tabular}
+    \caption{Miscellaneous}
+    \label{fig:sys-call_misc}
+  \end{figure}
+\end{frame}
