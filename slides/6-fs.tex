@@ -1,4 +1,5 @@
 \section{File System}
+
 \begin{frame}
   \frametitle{File System}
   \begin{block}{Challenges}
@@ -9,3 +10,62 @@
     \end{itemize}
   \end{block}
 \end{frame}
+
+\begin{frame}
+  \frametitle{File System}
+  \begin{block}{Two operations}
+    \begin{itemize}
+      \item read\_block(block\_number)
+      \item write\_block(block\_number)
+    \end{itemize}
+  \end{block} \pause
+  \begin{block}{How to, with these two, ..}
+    \begin{itemize}
+      \item Find information?
+      \item Keep a user from reading another user's data?
+      \item Know which blocks are free?
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{File Abstraction}
+  OSes abstract processor into process, physical memory into virtual address space and file system into files. \\
+  Processes (Threads), address space and files are the three most important abstractions that an Operation System offers.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Files}
+  \begin{block}{Naming rules}
+    \begin{itemize}
+      \item Different rules for different OS.
+      \item Names length varies from 1 to 255 characters.
+      \item Case-sensitive (UNIX), or not (MS-DOS).
+      \item Extension consideration.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Files}
+  \begin{block}{File Structure}
+    \begin{enumerate}
+      \item Unstructured sequence of byte (any meaning is imposed by the user procces). Offers the maximum flexibility.\footnote{UNIX, MS-DOS, Windows}
+      \item Fixed length-records each with internal structure (80 characters records, 132 char for line printer).\footnote{Not used anymore}
+      \item Tree records, each files has a key value, tree sorted according to these values.\footnote{Still used in some commercial data processing}
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Files}
+  \begin{block}{File Types}
+    \begin{itemize}
+      \item Different rules for different OS.
+      \item Names length varies from 1 to 255 characters.
+      \item Case-sensitive (UNIX), or not (MS-DOS).
+      \item Extension consideration.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
