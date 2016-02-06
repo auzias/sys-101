@@ -35,7 +35,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Files}
+  \frametitle{File Naming}
   \begin{block}{Naming rules}
     \begin{itemize}
       \item Different rules for different OS.
@@ -47,7 +47,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Files}
+  \frametitle{Files Structure}
   \begin{block}{File Structure}
     \begin{enumerate}
       \item Unstructured sequence of byte (any meaning is imposed by the user procces). Offers the maximum flexibility.\footnote{UNIX, MS-DOS, Windows}
@@ -58,7 +58,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Files}
+  \frametitle{Files Types}
   \begin{block}{File Types}
     \begin{itemize}
       \item Regular files (ASCII or binary files).
@@ -69,3 +69,55 @@
   \end{block}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Binary File Example}
+  \begin{block}{Executable binary example:}
+    \begin{itemize}
+      \item header,
+      \begin{itemize}
+          \item Magic-number (identifying the file as executable),
+          \item Size of the various pieces of the file,
+          \item Address at which execution starts
+          \item Various flags.
+      \end{itemize}
+      \item text,
+      \item data,
+      \item relocation bits,
+      \item symbol table (for debugging purposes).
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Binary File Example}
+  \begin{block}{Archive example (collection of library procedures compiled but not linked):}
+    \begin{itemize}
+      \item header (telling its name),
+      \item Creation date,
+      \item Owner,
+      \item Protection code,
+      \item Size.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Files Extension and OS}
+  \begin{block}{OS details}
+    \begin{itemize}
+      \item An OS must at least recognize its own executable file type (they usually recognized more than this one type),
+      \item TOPS-20 checked the creation date of executable file, sought for its source file, and recompile it if the source file was updated.
+      \item \emph{make} program reproduce this behavior, file extensions are mandatory.
+      \item Strong mandatory file extensions make an OS unsuable (e.g., all extension file output produced are ".dat" -- impossible to copy a file!)
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Files Access}
+  \begin{block}{OS details}
+    \begin{itemize}
+      \item An
+    \end{itemize}
+  \end{block}
+\end{frame}
