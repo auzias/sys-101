@@ -240,14 +240,121 @@
   How to keep track of which disk blocks match with which file?
     \begin{itemize}
       \item Contiguous allocation,
-      \item Linked List allocation.
+      \item Linked list allocation,
+      \item Linked list allocation using a table in memory,
+      \item I-nodes\footnote{Index-nodes}.
   \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Implementing Files: contiguous allocation}
+    \frametitle{Implementing Files: contiguous allocation}
+    Each file occupies consecutive disk blocks.
+    \begin{block}{Advantages}
+        \begin{itemize}
+            \item Simple to implement:
+                \begin{itemize}
+                    \item Keeping track of a file's block requires only two numbers: starting disk address, number of blocks.
+                \end{itemize}
+            \item Read performance is excellent (the entire file can be read from the disk in a single operation).
+        \end{itemize}
+    \end{block}
+    \begin{block}{Drawbacks}
+        \begin{itemize}
+            \item Fragmentation.
+            \item Disk space.
+            \item What about a file becoming bigger?
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Implementing Files: linked list allocation}
+    Each file is matched with a linked list of disk blocks.
+    \begin{block}{Advantages}
+        \begin{itemize}
+            \item Every block of the disk can be used (no waste, no fragmentation).
+            \item Directories entry only need to store the disk address of the first block (no matter how big are the files).
+        \end{itemize}
+    \end{block}
+    \begin{block}{Drawbacks}
+        \begin{itemize}
+            \item Performance
+                \begin{itemize}
+                    \item Many head rotation may be required.
+                    \item Amount of data storage in a block is not a power of two.%, but many programs read/write blocks whose size is a power of two.
+                \end{itemize}
+            \item Each block starts with the address of the next block%, that generates extra overhead.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Implementing Files: linked list allocation using a table in memory}
+    Let's put the pointers and put them in a table in memory (FAT).
+    \begin{block}{Advantages}
+        \begin{itemize}
+            \item Every block of the disk can be used (no waste, no fragmentation).
+            \item Random access is much easier as no disk references are needed (as these references are in the memory).
+        \end{itemize}
+    \end{block}
+    \begin{block}{Drawbacks}
+        \begin{itemize}
+            \item Memory usage. The whole table must be in memory all the time.
+                \begin{itemize}
+                    \item 200-GB disk, 1-kB block size, entries of 3 bytes: 600 MB.
+                \end{itemize}
+            %\item Does not scale well.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Implementing Files: i-nodes}
+    The index lists the attributes and disk addresses of the file's blocks.
+    \begin{block}{Advantages}
+        \begin{itemize}
+            \item The memory is occupied only when file is open.
+            \item The footprint is smaller, the RAM usage does not depends on the disk size (but the number of opened files).
+        \end{itemize}
+    \end{block}
+    Indexes have the same size, thus, for big files, the last disk address point for an address of a block containing more disk block addresses.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Implementing Directories}
+    Main function of directories: map the ASCII name of the file onto the information needed to locate the data.
     \begin{itemize}
-      \item Contiguous allocation,
-      \item Linked List Allocation.
-  \end{itemize}
+        \item Directories entry provide the needed details to find file's disk blocks
+            \begin{itemize}
+                \item Disk address of the entire file,
+                \item Number of the first block,
+                \item Number of the i-node.
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Implementing Directories: File Names' Length}
+    How to deal with file names' length?
+    \begin{itemize}
+        \item Fixed-length
+        \begin{itemize}
+            \item MS-DOS: 1-8 character base name and optional extension of 1-3 characters.
+            \item UNIX v7: 1-16 characters, including any extensions.
+        \end{itemize}
+        \item Variable-length
+        \begin{itemize}
+            \item Set a maximum limit and use it for the design.
+            \item In-line.
+            \item In a heap.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Shared Files}
+    \begin{itemize}
+        \item Disk blocks are listed in a data structure\footnote{the i-node in Linux} associated with the shared file, not in directories.
+        \item Symbolic linking.
+    \end{itemize}
 \end{frame}
