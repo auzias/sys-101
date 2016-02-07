@@ -103,21 +103,151 @@
 
 \begin{frame}
   \frametitle{Files Extension and OS}
-  \begin{block}{OS details}
     \begin{itemize}
       \item An OS must at least recognize its own executable file type (they usually recognized more than this one type),
       \item TOPS-20 checked the creation date of executable file, sought for its source file, and recompile it if the source file was updated.
       \item \emph{make} program reproduce this behavior, file extensions are mandatory.
-      \item Strong mandatory file extensions make an OS unsuable (e.g., all extension file output produced are ".dat" -- impossible to copy a file!)
+      \item Strong mandatory file extensions make an OS unusable (e.g., all extension file output produced are ".dat" -- impossible to copy a file!)
     \end{itemize}
-  \end{block}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Files Access}
-  \begin{block}{OS details}
+  \frametitle{File Access}
     \begin{itemize}
-      \item An
+      \item Sequential access: files were read from the beginning to the end (magnetic tape).
+      \item Random access files: files can be read in any order. To choose the position in the file and read you can:
+      \begin{itemize}
+          \item Give the position as a parameter at teach read operation,
+          \item Seek at a specific position and then sequentially read (UNIX and Windows).
+      \end{itemize}
     \end{itemize}
-  \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{File Attributes (Metadata)}
+    \begin{itemize}
+      \item Right: who and how can the file be accessed.
+      \item Password: required to access the file.
+      \item Creator: ID of the user who created the file.
+      \item Owner: ID of the user who owns the file.
+      \item Read-only flag.
+      \item Hidden flag.
+      \item System flag.
+      \item Archive flag (set by the system when changed, cleared by the back-up program).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{File Attributes (Metadata)}
+    \begin{itemize}
+      \item ASCII/binary flag: 0 for ASCII file, 1 for binary file.
+      \item Random access flag: 0 for sequential access only, 1 for random access.
+      \item Temporary flag: 0 for normal, 1 for delete file on process exit
+      \item Lock flag: 0 for unlocked, nonzero for locked.
+      \item Creation time.
+      \item Time of last access.
+      \item Time of last change.
+      \item Current size.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{File Operations}
+    \begin{itemize}
+      \item Create: while no data are put into, the file is announced and some of its attributes are set.
+      \item Delete: frees up some disk space (sys-call).
+      \item Open: the system fetchs attributes and list of disk addresses into main memory for rapid access later on.
+      \item Close: frees up internal table space. Some OS impose a maximum number of open files.
+      \item Read: the user must specify how many data are expected and a buffer to put them in.
+      \item Write: data are written. If position is the end of the file, the file size increases, if it is in the middle, existing data are overwritten.
+      \item Append: write-like but only at the end of the file.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{File Operations}
+    \begin{itemize}
+      \item Seek: for random access files, set the file pointer at the requested position.
+      \item Get attributes: many programs need it, i.e.\emph{make}.
+      \item Set attributes: allows the user to modify some of the file attributes.
+      \item Rename: simple as that.
+    \end{itemize}
+    \color{blue}\href{https://github.com/p-e-w/maybe}{GH.com/p-e-w/maybe}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Directories}
+    \begin{itemize}
+      \item Single-level directory system: only \textbf{one} folder (digital cameras, music players, first PCs).
+      \item Hierarchical directory system.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Path Names}
+    \begin{itemize}
+      \item Absolute (from \textbf{root} directory): \\ \emph{/etc/apt/source.list}, \emph{/var/log/messages}.
+      \item Relative (from \textbf{current} directory):
+        \begin{itemize}
+          \item Implicit: \emph{Download/Gramatik.zip}, \emph{../Movies/}.
+          \item Explicit: \emph{./Download/Gramatik.zip}, \emph{./../Movies/}.
+        \end{itemize}
+    \end{itemize}
+    What are dot and dotdot?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Directory Operation}
+    \begin{itemize}
+      \item Create: creates a directory with dot and dotdot.
+      \item Delete: deletes a directory (only empty directories can be deleted).
+      \item Opendir: opens a directory so it can read.
+      \item Readdir: reading a directory allows to list all files within it.
+      \item Closedir: frees up internal table space.
+      \item Rename: simple as that.
+      \item Link: (hard link) increments the file's i-node counter and allows to make the file appear in different directories.
+      \item Unlink: decrements the file's i-node counter. If it is zero the file is delete from the system, otherwise only the path name specified is removed (UNIX system call to delete a file is unlink).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{File System Layout}
+    \begin{itemize}
+      \item Sector 0 contains the MBR\footnote{Master Boot Record}, used to boot the computer, at the end of the MBR is the partition table.
+      \item Partition table contains starting and ending disk addresses of the different partitions. One is marked as active.
+      \item At boot time, the BIOS reads and executes the MBR, the MBR program locates the active partition, reads its first block (boot block) and execute it.
+      \item The boot block loads the OS contained in that partition.
+        \begin{itemize}
+          \item All partition contains a boot block, even if it does not contain a bootable OS.
+        \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Partition System Layout}
+    \begin{itemize}
+      \item Boot block: cf previous slide.
+      \item Superblock: details include a magic number to identify the file system type and the number of blocks in the file system.
+      \item Free space management: can be in a form of a list of pointers.
+      \item I-nodes: array of data structure, one per file.
+      \item Root directory: contains the top of the system tree.
+      \item Files and directories: remainder of the disk.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Implementing Files}
+  How to keep track of which disk blocks match with which file?
+    \begin{itemize}
+      \item Contiguous allocation,
+      \item Linked List allocation.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Implementing Files: contiguous allocation}
+    \begin{itemize}
+      \item Contiguous allocation,
+      \item Linked List Allocation.
+  \end{itemize}
 \end{frame}
