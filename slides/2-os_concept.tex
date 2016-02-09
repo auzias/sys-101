@@ -98,10 +98,6 @@
     \frametitle{File}
       \begin{itemize}
         \item Path
-          \begin{itemize}
-            \item Absolute: from the root directory, starting with /
-            \item Relative: from the current directory\footnote{each process has a current working directory. A system call allows process to change their working directory}, starting with "./" or a directory name.
-          \end{itemize}
         \item Several files may have the same name.
         \item Each file has a unique absolute path (and an infinity of relative ones).
         \item Mounted file system, merging trees.
@@ -175,12 +171,12 @@
 
   \begin{frame}
     \frametitle{Boot procedure}
-    The BIOS\footnote{Bask Input Output System: low level I/O software system program present on the parentboard} contains the procedures to read the keyboard, write to the screen, perform I/O on disk. Held in RAM, OS can modify it when bugs are found.     
+    The BIOS\footnote{Basic Input Output System: low level I/O software system program present on the parentboard} contains the procedures to read the keyboard, write to the screen, perform I/O on disk. Held in RAM, OS can modify it when bugs are found.
     \begin{enumerate}
       \item The BIOS is started,
       \item The BIOS checks how much RAM is available,
       \item The BIOS verifies if keyboard, mouse (and other basic devices) are correctly installed and responding,
-      \item The BIOS scans PCI and ISA\footnote{Industry Standard Architecture} buses to detect attached devices,
+      \item The BIOS scans PCI\footnote{Peripheral Component Interconnect} and ISA\footnote{Industry Standard Architecture} buses to detect attached devices,
         \begin{enumerate}
           \item If new devices are found since last boot, these new devices are configured.
         \end{enumerate}
