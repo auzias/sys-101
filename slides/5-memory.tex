@@ -1,10 +1,67 @@
 \section{Memory Management}
-\begin{frame}
-  \frametitle{Memory Management}
-  \begin{block}{System operations}
+  \begin{frame}
+    \frametitle{Memory Management}
+      Historically, no abstraction at all:
+      \begin{itemize}
+        \item RAM: OS (from 0 to 0xN) and user program (to 0xN to 0xMAX)\footnote{\label{fn:bug}These are dangerous: if a bug is present in the program, it can wipe the OS}
+        \item RAM: user program (from 0 to 0xMAX), ROM: OS
+        \item RAM: OS (from 0 to 0xN) and user program (to 0xN to 0xMAX), ROM: device drivers (see fn \ref{fn:bug})
+      \end{itemize}
+      Usually, only one sole program could run at a time. Unless...
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{No abstraction, several user programs}
     \begin{itemize}
-      \item ..
-      \item ..
+      \item Swapping: the constraint is that only one program can be in the RAM at once. The OS can save into a file the whole memory and load up another back-up program state.
+      \item Divide and conquer: IBM 360 split memory with a protection key to identify (and match) memory and programs.
+      \begin{itemize}
+        \item Static relocation: modify on the fly the program when it's loaded (i.e., JUMP 28 into JUMP 28+constant).
+      \end{itemize}
     \end{itemize}
-  \end{block}
-\end{frame}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Memory abstraction: address spaces}
+    \begin{block}{Problems to solve}
+      \begin{itemize}
+        \item Protection
+        \item Relocation
+      \end{itemize}
+    \end{block}
+    \begin{block}{Address space?}
+      \begin{itemize}
+        \item IP address
+        \item Phone numbers
+        \item Internet domain (.com, .net)
+      \end{itemize}
+    \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Memory abstraction: address spaces}
+    Each process address space is mapped onto a different part of the physical memory.
+    \begin{block}{Base and limit CPU registers}
+      \begin{itemize}
+        \item Base register: loaded with the physical address where the process begins.
+        \item Limit register: loaded with the length of the process.
+      \end{itemize}
+    \end{block}
+    Every time a memory reference is done, the CPU add the value contained in the base register, checks if it is equal or greater than the value in the limit register and cases a fault if needed.
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Managing Free Memory}
+    \begin{itemize}
+      \item bitmaps: memory is divided as allocation units (from a few words to several kB). Each unit is map to a bit (1 if used, 0 if free).\footnote{smaller units allow a more precise allocation but the map consumes more memory}
+      \item linked lists: memory is a whole block. When a process starts the process' address space is removed from the list till the process ends. The list is sorted by address. Several algorithm to allocate memory are: first fit, next fit, best fit\footnote{A bit wasteful as it tends to leave unusable tiny free spaces}, worst fit. This can be speed up with two lists: one for processes, one for holes -- and holes-list can then be sorted by size making best fit/first fit faster. Holes list can also be stored... in holes!
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Virtual Memory}
+    Each program has its own address space, broken up into chunks called pages. These pages are mapped to physical memory, but not only.
+    \begin{block}{Paging}
+      Virtual addresses\footnote{program-generated addresses} form the virtual address space. When used, they go to an MMU\footnote{Memory Management Unit}, instead of the memory bus, that maps the virtual addresses onto the physical memory addresses.
+    \end{block}
+  \end{frame}
