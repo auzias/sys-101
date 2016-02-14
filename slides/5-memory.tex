@@ -62,6 +62,75 @@
     \frametitle{Virtual Memory}
     Each program has its own address space, broken up into chunks called pages. These pages are mapped to physical memory, but not only.
     \begin{block}{Paging}
-      Virtual addresses\footnote{program-generated addresses} form the virtual address space. When used, they go to an MMU\footnote{Memory Management Unit}, instead of the memory bus, that maps the virtual addresses onto the physical memory addresses.
+      Virtual addresses\footnote{program-generated addresses} form the virtual address space. When used, they go to an MMU\footnote{Memory Management Unit}, instead of the memory bus, that maps the virtual addresses onto the physical memory addresses. It aims to facilitate memory overlay.\\
+      A page fault occurs when a process references an address that is not stored in the memory.
+    \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Page Replacement Algorithms}
+    \begin{itemize}
+      \item optimal\footnote{easy to explain, impossible to implement on \emph{first} run}: remove the last referenced page. The OS has no way of knowing when each of the pages will be referenced next.
+      \item not-recently-used: randomly removed one page of the lowest-numbered non empty class (classed thanks to R (rreferenced-flag) and M (modified-flag)):
+      \begin{itemize}
+        \item Class 0: not referenced, not modified
+        \item Class 1: not referenced, modified
+        \item Class 2: referenced, not modified
+        \item Class 3: referenced, modified
+      \end{itemize}
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Page Replacement Algorithms}
+    \begin{itemize}
+      \item FIFO: First-In, First-Out (can throw out a heavily used page).
+      \item second-chance: to not throw out a heavily used page, R-flag is inspected on the oldest pages. The algorithm seek for old pages that has not been referenced in the most recent clock interval.
+      \item clock: circular-list contains the pages, the oldest is always pointed. If its R-flag is 1, it is cleared and the next is pointed, when a page with R-flag cleared is found it is replaced.
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Page Replacement Algorithms}
+    \begin{itemize}
+      \item least-recently-used: recently heavily used page will probably be reused and pages not used for ages probably won't be. Longest unused page is replaced. Heavy algorithm: the list of pages must be updated at every memory reference. Special hardware does exist to do so.
+      \item working-set: pages are loaded only on demand, not in advance. A process having a working-set won't cause page fault until it moves into another execution phase.
+      \item WSClock: based on the clock algorithm and the working-set.
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Page Fault Handling}
+    \begin{enumerate}
+      \item The hardware traps to the kernel saving the program counter.
+      \item ASM code is started to save volatile information\footnote{such as registers}.
+      \item The OS discovers a page fault and seek for the needed page.
+      \item Check if the address is valid and the protection. If not, process is killed. Is a page frame free? No: page replacement algorithm is run to select a victim.
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Page Fault Handling}
+    \begin{enumerate}\setcounter{enumi}{4}
+      \item The found page is dirty, it is scheduled for transfer. Another process is run, in any event the page is marked as busy.
+      \item The page is clean, the OS schedules a disk operation to bring the new page in.
+      \item The disk interrupt indicates the new page arrival. Page tables are updated, the page is marked as being in normal state.
+      \item Fault instruction is backed up the state it had when it began, the program counter is reset to point to that instruction.
+      \item Faulting process is scheduled, the OS return to the routine that called it.
+      \item The routine reloads the registers and other state information and returns to user space to continue execution.
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Segmentation}
+    \begin{block}{Segmentation}
+      Division into different segments (or sections) of different types (code, data, array, stack).
+      \begin{itemize}
+        \item Each segments is contiguous.
+        \item Memory is then address by two-part address: segment number and address within the segment.
+        \item Segments simplify growing and shrinking data structures handling and sharing.
+        \item Each segment can have a different protection.
+      \end{itemize}
+
     \end{block}
   \end{frame}
