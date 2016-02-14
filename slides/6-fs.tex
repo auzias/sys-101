@@ -363,6 +363,39 @@
     \frametitle{Other File Systems}
     \begin{itemize}
         \item Log-Structured File System (LFS).
+        \begin{itemize}
+          \item Computer speed bottleneck is the hard drive speed. reads are OK, writes are buffered and done by burst.
+        \end{itemize}
         \item Journaling File System (NTFS, ext3).
+        \begin{itemize}
+          \item The OS keep a log of what the FS is going to do before it does it, so if a crash occurs, on the reboot it can repair it.
+        \end{itemize}
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Virtual File Systems}
+    A VFS integrates multiple file systems into an orderly structure.
+    \begin{itemize}
+        \item /: ext4 on an SSD.
+        \item /media/cd-rom: ISO 9660.
+        \item /home: NFS.
+        \item /usr: NTFS on a HDD.
+    \end{itemize}
+    While there are 4 different FS, users access any file with the standard POSIX calls.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Defragmentation}
+    Free blocks become scattered all over the disk among the used blocks. Big files are then stored in many places that slows read-calls.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Questions}
+    \begin{enumerate}
+      \item Why a magic number is giver for executable files whereas random ones are given to other files (UNIX - old versions)?
+            % The magic number is the `BRANCH` instruction that is the first word of the file. Thus the file can be charged in memory and executed without knowing the size of the header!
+      \item Is \emph{open} required? Is there a way to avoid this and used \emph{read} or \emph{write} without calling \emph{open}?
+            % open load the i-node in memory, without it you have to: 1) specify the path at each read/write, 2) load the i-node every time (even though it could be in the memory)
+    \end{enumerate}
 \end{frame}
