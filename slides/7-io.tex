@@ -1,0 +1,92 @@
+\section{Input/Ouput}
+
+\begin{frame}
+  \frametitle{I/O}
+  \begin{block}{OS objectives}
+    \begin{itemize}
+      \item Issue commands to the devices
+      \item Catch interrupts
+      \item Handle errors
+      \item Provide an easy-to-use interface
+      \item Provide common interface for all devices
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{I/O Devices}
+  \begin{itemize}
+    \item block devices
+    \begin{itemize}
+      \item stores information in fixed-size blocks.
+      \item each one with its own address.
+      \item Transfers are in units of entire consecutive blocks\footnote{ranging from 512 B to 32kB}.
+      \item Each block can be read or write independently.
+      \item Examples: USB sticks, CD-ROM, hard drives.
+    \end{itemize}
+    \item character devices
+    \begin{itemize}
+      \item delivers/accepts a stream of characters.
+      \item is not addressable.
+      \item cannot seek.
+      \item Examples: printers, mice, network interfaces.
+    \end{itemize}
+  \end{itemize}
+  All devices do not fit in this two-part categories. Clocks (that cause interrupts at intervals) or memory-mapped screens do not fit in.
+\end{frame}
+
+\begin{frame}
+  \frametitle{I/O data rates}
+    \begin{center}
+      \begin{table}
+        \begin{tabular}{ r | l }
+          \hline
+          Device      & Data rate \\ \hline \hline
+          Keyboard    & 10 bytes/s \\ \hline
+          52x CD-ROM  & 7.8 MB/s \\ \hline
+          USB 2.0     & 60 MB/s \\ \hline
+          Gigabit Eth & 125 MB/s \\ \hline
+          SATA disk drive & 300 MB/s \\ \hline
+          PCI bus     & 528 MB/s \\
+          \hline
+        \end{tabular}
+        \caption{Devices and their data rate}
+      \end{table}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Memory-Mapped I/O}
+  Each device has an electronic component called the device controller.
+
+  Each controller has a few registers, used to communicate with the OS through the CPU.
+\end{frame}
+
+\begin{frame}
+\frametitle{Memory-Mapped I/O}
+  \begin{block}{Two means of communication}
+    \begin{itemize}
+      \item Each control register is assigned an I/O port number.
+    \begin{itemize}
+      \item overhead to read/write control registers.
+      \item device driver must contain ASM.
+      \item read operations require more instructions, slowing the responsiveness.
+    \end{itemize}
+      \item Each control register is assigned a unique memory -- this is called memory mapped I/O.
+    \begin{itemize}
+      \item overhead to read/write control registers.
+      \item device driver can be written in C.
+      \item protection is easy (the OS just don't allocate that space to user programs).
+      \item Each device can (and should) have its own memory page.
+      \item no caching possible.
+    \end{itemize}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{DMA\footnote{Direct Memory Access}}
+  Having the CPU request one byte at a time for each device is wasteful.
+
+  Each controller has a few registers, used to communicate with the OS through the CPU.
+\end{frame}
