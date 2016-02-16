@@ -73,20 +73,62 @@
       \item read operations require more instructions, slowing the responsiveness.
     \end{itemize}
       \item Each control register is assigned a unique memory -- this is called memory mapped I/O.
-    \begin{itemize}
-      \item overhead to read/write control registers.
-      \item device driver can be written in C.
-      \item protection is easy (the OS just don't allocate that space to user programs).
-      \item Each device can (and should) have its own memory page.
-      \item no caching possible.
-    \end{itemize}
+      \begin{itemize}
+        \item overhead to read/write control registers.
+        \item device driver can be written in C.
+        \item protection is easy (the OS just don't allocate that space to user programs).
+        \item Each device can (and should) have its own memory page.
+        \item no caching possible.
+      \end{itemize}
     \end{itemize}
   \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{DMA\footnote{Direct Memory Access}}
-  Having the CPU request one byte at a time for each device is wasteful.
+  Having the CPU request one byte at a time for each device is wasteful.\\
+  A DMA has access to the system bus while being CPU independent.
+  \begin{block}{Without DMA}
+    \begin{enumerate}
+      \item the disk controller reads the block bit by bit till the whole block is in the controller's internal buffer.
+      \item the checksum is compute.
+      \item the controller causes an interrupt.
+      \item the OS can then read the buffer word by word and store it in the memory.
+    \end{enumerate}
+  \end{block}
+\end{frame}
 
-  Each controller has a few registers, used to communicate with the OS through the CPU.
+\begin{frame}
+  \frametitle{DMA}
+  \begin{block}{With DMA}
+    \begin{enumerate}
+      \item the CPU programs the DMA controller through the DMA registers.
+      \item When valid data are in the disk controller's buffer the DMA controller ..
+      \item .. initiates the transfer with a \emph{read} request.
+      \item When the write (from buffer into memory) is complete, the disk controller sends a signal to the DMA controller.
+      \item The DMA controller, once all the \emph{read}-operations are done, interrupts the CPU.
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{DMA}
+  \begin{block}{DMA differences}
+    \begin{itemize}
+      \item Some DMA can handle several transfers at once, each controllers having one channel for each sets of internal registers.
+      \item Some DMA can operate in word-at-a-time mode and block mode.
+      \item In block mode the DMA can tell the device to acquire the bus and perform a series of transfers, then release the bus. This is called "burst mode".
+    \end{itemize}
+  \end{block}
+  If the CPU needs the bus it has to wait. This mechanism is called "cycle stealing".
+\end{frame}
+
+\begin{frame}
+  \frametitle{DMA}
+  \begin{block}{Disk read. Why this internal buffer?}
+    \begin{itemize}
+      \item To compute checksum.
+      \item Without, when transfers start, the disk would have to write into the memory. What would happen if the data bus is busy? Words would be lost.
+    \end{itemize}
+  \end{block}
 \end{frame}
