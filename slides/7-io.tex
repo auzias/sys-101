@@ -136,8 +136,52 @@
 
 \begin{frame}
   \frametitle{Interrupts}
-  \begin{itemize}
-    \item Devices
-    \item Without, when transfers start, the disk would have to write into the memory. What would happen if the data bus is busy? Words would be lost.
-  \end{itemize}
+  \begin{enumerate}
+    \item A device causes an interrupt by asserting a signal on its assigned bus line.
+    \item The interrupt controller detects this signal and decides what to do:
+    \begin{itemize}
+      \item No other interrupts are pending: the interrupt is processed immediately.
+      \item Another interrupt is in process or higher-priority one has be requested: the interrupt is ignored for the moment.
+    \end{itemize}
+      \item The interrupt controller write a number on the address lines to specify the device causing the interrupts and sends a signal to the CPU.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Interrupts}
+  \begin{enumerate}\setcounter{enumi}{3}
+    \item The CPU stops what it was doing, read the number used as an index into a table called the interrupt vector to fetch a new program counter.
+    \item The program counter points to the start of the interrupt service procedure.
+    \item From this point, traps and interrupts use the same mechanism and usually share the same interrupt vector.
+    \item After the interrupt service procedure starts, the interruption is acknowledged so the controller can fire another interrupt.
+  \end{enumerate}
+  By delaying the acknowledgement a race-condition is avoided.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Interrupts}
+  \begin{block}{Information saved before starting the service procedure}
+    \begin{itemize}
+      \item Program counter,
+      \item The program counter points to the start of the interrupt service procedure.
+      \item From this point, traps and interrupts use the same mechanism and usually share the same interrupt vector.
+      \item After the interrupt service procedure starts, the interruption is acknowledged so the controller can fire another interrupt.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Precise Interrupt}
+  Four properties characterize a precise interrupt:
+  \begin{enumerate}
+    \item The program counter is saved in a known place.
+    \item All instructions before the one pointed to by the PC have been fully executed.
+    \item No instruction beyond the PC has been executed.
+    \item The execution state of the instruction pointer to by the PC is known.
+  \end{enumerate}
+  If an interrupt does not meet these properties, it is called an imprecise interrupt.
+\end{frame}
+
+\begin{frame}
+  \frametitle{I/O Software}
 \end{frame}
