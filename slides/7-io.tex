@@ -184,4 +184,33 @@
 
 \begin{frame}
   \frametitle{I/O Software}
+  \begin{block}{Key concepts}
+    \begin{itemize}
+      \item Device independence: a program that reads a file should not have a different procedure to read a file form the disk, or a USB stick, or the keyboard.
+      \item Uniform naming: file name should be a string and should not depend on the device.
+      \item Error handling: errors should be handle as close as the hardware as possible.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{I/O Software}
+  \begin{block}{Key concepts}
+    \begin{itemize}
+      \item Synchronous blocking: the OS should make I/O operations look like blocking as it is easier to program.
+      \item Buffering: network packet or audio streams, just like many other, need to be buffered. The OS should take care of that.
+      \item Sharable/dedicated device: while some I/O devices can be used by many users at the time (NIC, HDD), some cannot (printer). The OS must handle the stemming issues.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{I/O Software}
+  \begin{block}{Performing an I/O}
+    \begin{itemize}
+      \item Programmed I/O: the CPU does all the work so it's simple, but the polling, or busy waiting, makes it is costly.
+      \item Interrupt-driven I/O: the process requesting the I/O operation is blocked until the operation is done, unless the CPU that can execute other process waiting for the next interruption coming from the device. Usually an interruption occurs at every character and takes time to be executed.
+      \item I/O using DMA: the DMA feed the characters to the device to let the CPU free. Interrupt number is down from one per character to one per buffer.
+    \end{itemize}
+  \end{block}
 \end{frame}
