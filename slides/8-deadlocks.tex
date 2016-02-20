@@ -1,0 +1,143 @@
+\section{Deadlocks}
+
+\begin{frame}
+  \frametitle{Definition by example}
+  Two processes, \emph{P0} and \emph{P1}, needs to request to two resources, \emph{R0} and \emph{R1}. \emph{P0} and \emph{P1} and independent and differently programmed.
+  \begin{enumerate}
+    \item \emph{P1} requests, and obtains, access to \emph{R0}.
+    \item \emph{P0} requests, and obtains, access to \emph{R1}.
+    \item Reads/Write-operations are performed on \emph{R0} by \emph{P1} and \emph{R1} by \emph{P0}.
+    \item Now \emph{P1} needs access to \emph{R1}, owned by \emph{P0}, while \emph{P0} needs access to \emph{R0}, owned by \emph{P1}.
+    \item Both processes will wait the other to release the needed resource.
+  \end{enumerate}
+  \begin{center}
+    That's a dead\textbf{lock}.
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Former definition}
+  \begin{center}
+    A set of processes is deadlocked if each process in the set is waiting for an event that only another process in the set can cause.
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Resources}
+  \begin{block}{Resources types}
+    Any object\footnote{either hardware or software} that must be acquired, used and released.
+    \begin{itemize}
+      \item Preemptable resource: resource that can be taken away from the process without bad effect (e.g., disk, memory).
+      \item Nonpreemptable resource: resource that, if taken away, will fail the processing of a task.
+    \end{itemize}
+  \end{block}
+  \begin{block}{Steps to use a resource}
+    \begin{enumerate}
+      \item Request the resource.
+      \item Use the resource. (optional)
+      \item Release the resource.
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock}
+  \begin{block}{Deadlock conditions, Coffman et al. (1971)}
+    \begin{enumerate}
+      \item Mutual exclusion condition. Each resource is either currently assigned to exactly one process or is available.
+      \item Hold and wait condition. Processes currently holding resources that were granted earlier can request new resources.
+      \item No preemption condition. Resources previously granted cannot be forcibly taken away from a process. They must be explicitly released by the process holding them.
+      \item Circular wait condition. There must be a circular chain of two or more processes, each of which is waiting for a resource held by the next member of the chain.
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock}
+  \begin{block}{Deadlock conditions, Coffman et al. (1971)}
+    \begin{enumerate}
+      \item Mutual exclusion condition. Each resource is either currently assigned to exactly one process or is available.
+      \item Hold and wait condition. Processes currently holding resources that were granted earlier can request new resources.
+      \item No preemption condition. Resources previously granted cannot be forcibly taken away from a process. They must be explicitly released by the process holding them.
+      \item Circular wait condition. There must be a circular chain of two or more processes, each of which is waiting for a resource held by the next member of the chain.
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock modelisation}
+  \begin{itemize}
+    \item Mutual exclusion\footnote{Mutex: Mutual Exclusion} condition. Each resource is either currently assigned to exactly one process or is available.
+    \item Hold and wait condition. Processes currently holding resources that were granted earlier can request new resources.
+    \item No preemption condition. Resources previously granted cannot be forcibly taken away from a process. They must be explicitly released by the process holding them.
+    \item Circular wait condition. There must be a circular chain of two or more processes, each of which is waiting for a resource held by the next member of the chain.
+  \end{itemize}
+  \begin{block}{Schematic Representation}
+    \begin{itemize}
+      \item \emph{P0} \underline{requests} the resource \emph{R0}: (\emph{P0}) $\longrightarrow$ [\emph{R0}]
+      \item \emph{R0} \underline{is owned} by \emph{P0}: [\emph{R0}] $\longrightarrow$ (\emph{P0})
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock}
+  \begin{enumerate}
+    \item \emph{A} owns R and requests S.
+    \item \emph{B} owns nothing but requests T.
+    \item \emph{C} owns nothing but requests S.
+    \item \emph{D} owns U and requests S and T.
+    \item \emph{E} owns T and requests V.
+    \item \emph{F} owns W and requests S.
+    \item \emph{G} owns V and requests U.
+  \end{enumerate}
+  Is there a deadlock?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock Prevention}
+  \begin{block}{Mutual Exclusion}
+    Assign a resource when that is absolutely necessary. Make sure that as few processes as possible claim the resource.
+  \end{block}
+  \begin{block}{Hold and Wait}
+    All resources are requested before the program starts. Problems stemming from this: 1. a program may not know the needed set of resources, 2. resources will not be optimally used.\\
+    Another way to break this is: a process requesting a resource first temporarily releases all the resources it currently holds, then tries to get everything it needs all at once.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock Prevention}
+  \begin{block}{No preemption}
+    Virtualizing a resource can prevent deadlock. For instance a printer will not be assigned to a process but rather to its daemon, and the daemon will be assigned some disk space where processes write to print. Nevertheless, not all resources can be virtualized.
+  \end{block}
+  \begin{block}{Circular wait}
+    If a process can own at most one single resource this condition is eliminated. But what if a process need to print a huge file sent through a serial communication? It costs too much.\\
+    A solution to avoid circular wait is to order resources. If \emph{P0} and \emph{P1} must request \emph{R0} and \emph{R1} in this order then no deadlock would had occurred.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock Prevention}
+  \begin{block}{Two-Phase Locking}
+    \begin{enumerate}
+      \item the process tries to lock all the resources it needs, one at a time.
+        \begin{itemize}
+          \item On succeed: goto 2
+          \item If one lock fails: release all locks, goto 1.
+        \end{itemize}
+      \item The process performs its updates and releases the locks. No real work is done in the first phase.
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Deadlock Issue}
+  \begin{block}{Communication}
+    Deadlocks appears also in communication system. A node S requests a resource to node R and blocks, waits, for the response. What if the request is lost?\\
+    This is a communication deadlock. They cannot be prevented by ordering resources or avoided by scheduling. Timeout can prevent them.
+  \end{block}
+  \begin{block}{Starvation}
+    When several process requests the same resource, processes may starve if new processes, arriving endlessly, always get the resource before them.\\
+    Starvation can be avoided by using a first-come, first-served, resource allocation policy.
+  \end{block}
+\end{frame}
