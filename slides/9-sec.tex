@@ -1,0 +1,44 @@
+\section{Security}
+
+  \begin{frame}
+      \frametitle{Security}
+      \begin{block}{OS Security Goals vs. Threat}
+        \begin{itemize}
+          \item Data confidentiality: unauthorized users should not be able to access any file.
+          \item Data integrity: unauthorized users should not be able to modify any data.
+          \item System availability: nobody should be able to bring the system in an unusable state (i.e., DDOS, soft-bomb).
+          \item System integrity: unauthorized users should not be able to access a system.
+          \item Privacy: so much to say, but out of the scope.
+          \item Accidental loss: valuable data can be lost by accident.
+        \end{itemize}
+      \end{block}
+  \end{frame}
+
+    \begin{frame}
+        \frametitle{Security}
+        \begin{block}{Intruders}
+          Two different ways to act:
+          \begin{itemize}
+            \item Passive: just read data they are not authorized to.
+            \item Active: add, remove, modify data.
+          \end{itemize}
+          Can be categorize as:
+          \begin{itemize}
+            \item Casual nontechnical.
+            \item Snooping by insiders. Highly skilled taking security as a challenge.
+            \item Determined attempts to make money.
+            \item Commercial or military espionage.
+          \end{itemize}
+        \end{block}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Protection mechanisms}
+        \begin{block}{Protection Domains}
+          How to prohibit processes from accessing objects that they are not authorized to access?
+          \begin{itemize}
+            \item A domain is a set of (object, rights\footnote{subset of the operations that can be performed on it}) pairs.
+            \item A domain may correspond to a single user or a group.
+          \end{itemize}
+        \end{block}
+    \end{frame}
