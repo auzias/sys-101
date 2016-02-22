@@ -39,6 +39,26 @@
           \begin{itemize}
             \item A domain is a set of (object, rights\footnote{subset of the operations that can be performed on it}) pairs.
             \item A domain may correspond to a single user or a group.
+            \item Every process runs in a protection domain. The objects within this same domain are accessible. UNIX domains are defined by the UID and the GID.
+            \item Each process has two halves: user part and kernel part. Each part has different set of accessible objects.
+          \end{itemize}
+        \end{block}
+        Domains can be stored in matrix, but it is usually space wasting as most domains do not have any right on most objects.
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Protection mechanisms}
+        \begin{block}{Access Control List}
+          This matrix can be stored as a list, either by row\footnote{then name \textbf{capabilities}.} or column, with only non-empty elements.
+        \end{block}
+        \begin{block}{Trusted System}
+          \begin{itemize}
+            \item Microsoft has one\footnote{Frandrich \emph{et al.}, 2006} but do not sell it.
+            \item Why don't we use one?
+            \begin{itemize}
+              \item Because features (ASCII email, WWW).
+              \item Design a system as simple as possible is required.
+            \end{itemize}
           \end{itemize}
         \end{block}
     \end{frame}
