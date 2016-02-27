@@ -1,0 +1,855 @@
+2015-11-04 01:52:56 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 01:52:56 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4294 ; temperature=36
+2015-11-04 01:53:16 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4294 ; temperature=36
+2015-11-04 01:53:16 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:27:16 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:29:16 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:31:36 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4294 ; temperature=36
+2015-11-04 03:31:36 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:32:56 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:34:16 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:42:37 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:42:57 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:48:57 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:48:57 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:49:17 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:50:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:52:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:53:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 03:58:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 03:58:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:00:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:00:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:04:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:06:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:07:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:17:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:19:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:19:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:25:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:27:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:27:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:28:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:30:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:32:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:32:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:32:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:32:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:33:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:33:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:34:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:35:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:36:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:41:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 04:42:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 04:59:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 06:40:38 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 06:40:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 06:46:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 06:47:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 06:47:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 06:53:18 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 06:53:58 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 07:01:20 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 07:02:20 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 07:40:00 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=35
+2015-11-04 08:30:00 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=35
+2015-11-04 08:31:04 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=<unknown ssid> ; bssid=n/a ; rssid=-127 ; linkSpeed=-1
+2015-11-04 08:31:05 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 08:31:05 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 08:31:06 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 08:31:07 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 08:31:14 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 08:31:14 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 08:31:21 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=36
+2015-11-04 08:32:20 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 08:32:20 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4293 ; temperature=36
+2015-11-04 09:24:40 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=36
+2015-11-04 10:23:40 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=37
+2015-11-04 10:29:21 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4292 ; temperature=38
+2015-11-04 10:34:21 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=39
+2015-11-04 10:43:41 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=40
+2015-11-04 10:53:01 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=41
+2015-11-04 11:05:01 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=42
+2015-11-04 11:23:42 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=43
+2015-11-04 11:31:49 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=<unknown ssid> ; bssid=n/a ; rssid=-127 ; linkSpeed=-1
+2015-11-04 11:31:50 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=eduroam ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 11:31:50 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 11:31:51 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4287 ; temperature=43
+2015-11-04 11:31:51 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=43
+2015-11-04 11:31:51 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=eduroam ; bssid=88:43:e1:fb:2d:20 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 11:31:53 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=eduroam ; bssid=88:43:e1:fb:2d:20 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 11:31:58 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 11:31:58 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 11:32:02 ; type=BATTERY ; level=100% ; state=FULL ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=44
+2015-11-04 11:32:06 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4286 ; temperature=45
+2015-11-04 11:32:06 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=45
+2015-11-04 11:33:42 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=44
+2015-11-04 11:33:42 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=44
+2015-11-04 11:36:02 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=44
+2015-11-04 11:37:42 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=44
+2015-11-04 12:36:02 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=45
+2015-11-04 12:36:22 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=45
+2015-11-04 12:36:22 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4291 ; temperature=45
+2015-11-04 13:46:42 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=44
+2015-11-04 14:13:02 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4290 ; temperature=43
+2015-11-04 14:29:42 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4280 ; temperature=43
+2015-11-04 14:29:42 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4276 ; temperature=43
+2015-11-04 14:30:02 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4277 ; temperature=44
+2015-11-04 14:30:03 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=USB ; health=GOOD ; voltage=4235 ; temperature=44
+2015-11-04 14:32:03 ; type=BUNDLE ; nbReady=0 ; nbTotal=0 ; lastSentAt=N/A
+2015-11-04 14:32:04 ; type=BUNDLE ; nbReady=0 ; nbTotal=0 ; lastSentAt=N/A
+2015-11-04 16:03:05 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4255 ; temperature=22
+2015-11-04 16:03:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-66 ; linkSpeed=58
+2015-11-04 16:03:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:03:20 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4247 ; temperature=23
+2015-11-04 16:03:20 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4250 ; temperature=23
+2015-11-04 16:03:29 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:03:29 ; type=DEVICE ; address=1446649390119 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@b5804 ; 
+2015-11-04 16:03:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:03:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-66 ; linkSpeed=58
+2015-11-04 16:03:40 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4233 ; temperature=24
+2015-11-04 16:03:40 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4251 ; temperature=24
+2015-11-04 16:03:46 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:03:46 ; type=DEVICE ; address=1446649412974 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@24c6c03a ; 
+2015-11-04 16:03:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:03:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-66 ; linkSpeed=58
+2015-11-04 16:04:05 ; type=DEVICE ; address=1446649390119 ; action=DELETE ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@1aefb6bb ; 
+2015-11-04 16:04:05 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:04:05 ; type=DEVICE ; address=1446649390119 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@1aefb6bb ; 
+2015-11-04 16:03:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:03:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-66 ; linkSpeed=58
+2015-11-04 16:04:11 ; type=DEVICE ; address=1446649412974 ; action=DELETE ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@2b7ac06f ; 
+2015-11-04 16:04:11 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:04:11 ; type=DEVICE ; address=1446649412974 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@2b7ac06f ; 
+2015-11-04 16:03:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:03:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-66 ; linkSpeed=58
+2015-11-04 16:03:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:03:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-66 ; linkSpeed=58
+2015-11-04 16:04:20 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4251 ; temperature=25
+2015-11-04 16:04:20 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4250 ; temperature=25
+2015-11-04 16:04:40 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4245 ; temperature=25
+2015-11-04 16:04:40 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4250 ; temperature=25
+2015-11-04 16:04:56 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:05:02 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4250 ; temperature=25
+2015-11-04 16:05:02 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:05:02 ; type=DEVICE ; address=1446649390119 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@322cbcad ; 
+2015-11-04 16:05:02 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 16:05:02 ; type=DEVICE ; address=1446649412974 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@1bad9a30 ; 
+2015-11-04 16:05:02 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=88:43:e1:57:7f:60 ; rssid=-72 ; linkSpeed=58
+2015-11-04 16:05:02 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 16:05:04 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:01:21 ; type=BATTERY ; level=98% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4320 ; temperature=30
+2015-11-04 17:01:21 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=eduroam ; bssid=0c:68:03:d6:70:00 ; rssid=-90 ; linkSpeed=1
+2015-11-04 17:01:21 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:01:21 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:01:21 ; type=DEVICE ; address=1446649390119 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@f31342e ; 
+2015-11-04 17:01:21 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:01:21 ; type=DEVICE ; address=1446649412974 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@3f6d6bcf ; 
+2015-11-04 17:01:26 ; type=BATTERY ; level=98% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=31
+2015-11-04 17:01:27 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=<unknown ssid> ; bssid=n/a ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:01:27 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=STREAMING ; configuration=null ; 
+2015-11-04 17:01:30 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=STREAMING ; configuration=null ; 
+2015-11-04 17:01:29 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:01:57 ; type=BUNDLE ; nbReady=1 ; nbTotal=1 ; lastSentAt=N/A
+2015-11-04 17:02:08 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=eduroam ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:02:27 ; type=BUNDLE ; nbReady=2 ; nbTotal=2 ; lastSentAt=N/A
+2015-11-04 17:02:37 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4325 ; temperature=30
+2015-11-04 17:02:37 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=30
+2015-11-04 17:02:37 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4321 ; temperature=30
+2015-11-04 17:02:37 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=30
+2015-11-04 17:02:38 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=eduroam ; bssid=0c:68:03:d6:70:00 ; rssid=-92 ; linkSpeed=2
+2015-11-04 17:02:38 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=eduroam ; bssid=0c:68:03:d6:70:00 ; rssid=-92 ; linkSpeed=2
+2015-11-04 17:02:40 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:02:57 ; type=BUNDLE ; nbReady=3 ; nbTotal=3 ; lastSentAt=N/A
+2015-11-04 17:03:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4321 ; temperature=30
+2015-11-04 17:03:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=30
+2015-11-04 17:03:27 ; type=BUNDLE ; nbReady=4 ; nbTotal=4 ; lastSentAt=N/A
+2015-11-04 17:02:40 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:02:40 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:03:57 ; type=BUNDLE ; nbReady=5 ; nbTotal=5 ; lastSentAt=N/A
+2015-11-04 17:04:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=33
+2015-11-04 17:04:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=33
+2015-11-04 17:04:27 ; type=BUNDLE ; nbReady=6 ; nbTotal=6 ; lastSentAt=N/A
+2015-11-04 17:04:57 ; type=BUNDLE ; nbReady=7 ; nbTotal=7 ; lastSentAt=N/A
+2015-11-04 17:05:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4321 ; temperature=33
+2015-11-04 17:05:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=33
+2015-11-04 17:05:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=33
+2015-11-04 17:05:27 ; type=BUNDLE ; nbReady=8 ; nbTotal=8 ; lastSentAt=N/A
+2015-11-04 17:05:57 ; type=BUNDLE ; nbReady=9 ; nbTotal=9 ; lastSentAt=N/A
+2015-11-04 17:06:27 ; type=BUNDLE ; nbReady=10 ; nbTotal=10 ; lastSentAt=N/A
+2015-11-04 17:06:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=34
+2015-11-04 17:06:57 ; type=BUNDLE ; nbReady=11 ; nbTotal=11 ; lastSentAt=N/A
+2015-11-04 17:07:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=35
+2015-11-04 17:07:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=35
+2015-11-04 17:07:27 ; type=BUNDLE ; nbReady=12 ; nbTotal=12 ; lastSentAt=N/A
+2015-11-04 17:07:57 ; type=BUNDLE ; nbReady=13 ; nbTotal=13 ; lastSentAt=N/A
+2015-11-04 17:08:27 ; type=BUNDLE ; nbReady=14 ; nbTotal=14 ; lastSentAt=N/A
+2015-11-04 17:08:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=36
+2015-11-04 17:08:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=36
+2015-11-04 17:08:57 ; type=BUNDLE ; nbReady=15 ; nbTotal=15 ; lastSentAt=N/A
+2015-11-04 17:09:27 ; type=BUNDLE ; nbReady=16 ; nbTotal=16 ; lastSentAt=N/A
+2015-11-04 17:09:57 ; type=BUNDLE ; nbReady=17 ; nbTotal=17 ; lastSentAt=N/A
+2015-11-04 17:10:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4321 ; temperature=37
+2015-11-04 17:10:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=37
+2015-11-04 17:10:27 ; type=BUNDLE ; nbReady=18 ; nbTotal=18 ; lastSentAt=N/A
+2015-11-04 17:10:57 ; type=BUNDLE ; nbReady=19 ; nbTotal=19 ; lastSentAt=N/A
+2015-11-04 17:11:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=37
+2015-11-04 17:11:27 ; type=BUNDLE ; nbReady=20 ; nbTotal=20 ; lastSentAt=N/A
+2015-11-04 17:11:57 ; type=BUNDLE ; nbReady=21 ; nbTotal=21 ; lastSentAt=N/A
+2015-11-04 17:02:40 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:02:40 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:12:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=35
+2015-11-04 17:12:27 ; type=BUNDLE ; nbReady=22 ; nbTotal=22 ; lastSentAt=N/A
+2015-11-04 17:12:57 ; type=BUNDLE ; nbReady=23 ; nbTotal=23 ; lastSentAt=N/A
+2015-11-04 17:13:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=37
+2015-11-04 17:13:27 ; type=BUNDLE ; nbReady=24 ; nbTotal=24 ; lastSentAt=N/A
+2015-11-04 17:13:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=37
+2015-11-04 17:13:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4324 ; temperature=37
+2015-11-04 17:13:57 ; type=BUNDLE ; nbReady=25 ; nbTotal=25 ; lastSentAt=N/A
+2015-11-04 17:14:27 ; type=BUNDLE ; nbReady=26 ; nbTotal=26 ; lastSentAt=N/A
+2015-11-04 17:02:40 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:02:40 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:14:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=38
+2015-11-04 17:14:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=38
+2015-11-04 17:14:57 ; type=BUNDLE ; nbReady=27 ; nbTotal=27 ; lastSentAt=N/A
+2015-11-04 17:15:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=37
+2015-11-04 17:15:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=37
+2015-11-04 17:02:40 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138371074 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:02:40 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:15:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=36
+2015-11-04 17:15:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4324 ; temperature=36
+2015-11-04 17:15:27 ; type=BUNDLE ; nbReady=28 ; nbTotal=28 ; lastSentAt=N/A
+2015-11-04 17:15:57 ; type=BUNDLE ; nbReady=29 ; nbTotal=29 ; lastSentAt=N/A
+2015-11-04 17:16:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=35
+2015-11-04 17:16:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=35
+2015-11-04 17:16:27 ; type=BUNDLE ; nbReady=30 ; nbTotal=30 ; lastSentAt=N/A
+2015-11-04 17:16:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=34
+2015-11-04 17:16:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=34
+2015-11-04 17:16:57 ; type=BUNDLE ; nbReady=31 ; nbTotal=31 ; lastSentAt=N/A
+2015-11-04 17:17:27 ; type=BUNDLE ; nbReady=32 ; nbTotal=32 ; lastSentAt=N/A
+2015-11-04 17:17:57 ; type=BUNDLE ; nbReady=33 ; nbTotal=33 ; lastSentAt=N/A
+2015-11-04 17:18:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=33
+2015-11-04 17:18:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=33
+2015-11-04 17:18:27 ; type=BUNDLE ; nbReady=34 ; nbTotal=34 ; lastSentAt=N/A
+2015-11-04 17:18:42 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:18:42 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=34
+2015-11-04 17:18:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4324 ; temperature=34
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:18:57 ; type=BUNDLE ; nbReady=35 ; nbTotal=35 ; lastSentAt=N/A
+2015-11-04 17:19:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=34
+2015-11-04 17:19:27 ; type=BUNDLE ; nbReady=36 ; nbTotal=36 ; lastSentAt=N/A
+2015-11-04 17:19:57 ; type=BUNDLE ; nbReady=37 ; nbTotal=37 ; lastSentAt=N/A
+2015-11-04 17:20:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=33
+2015-11-04 17:20:27 ; type=BUNDLE ; nbReady=38 ; nbTotal=38 ; lastSentAt=N/A
+2015-11-04 17:20:57 ; type=BUNDLE ; nbReady=39 ; nbTotal=39 ; lastSentAt=N/A
+2015-11-04 17:21:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=32
+2015-11-04 17:21:27 ; type=BUNDLE ; nbReady=40 ; nbTotal=40 ; lastSentAt=N/A
+2015-11-04 17:21:57 ; type=BUNDLE ; nbReady=41 ; nbTotal=41 ; lastSentAt=N/A
+2015-11-04 17:22:27 ; type=BUNDLE ; nbReady=42 ; nbTotal=42 ; lastSentAt=N/A
+2015-11-04 17:22:46 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=32
+2015-11-04 17:22:57 ; type=BUNDLE ; nbReady=43 ; nbTotal=43 ; lastSentAt=N/A
+2015-11-04 17:23:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=32
+2015-11-04 17:23:27 ; type=BUNDLE ; nbReady=44 ; nbTotal=44 ; lastSentAt=N/A
+2015-11-04 17:23:57 ; type=BUNDLE ; nbReady=45 ; nbTotal=45 ; lastSentAt=N/A
+2015-11-04 17:24:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=31
+2015-11-04 17:24:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=31
+2015-11-04 17:24:27 ; type=BUNDLE ; nbReady=46 ; nbTotal=46 ; lastSentAt=N/A
+2015-11-04 17:24:57 ; type=BUNDLE ; nbReady=47 ; nbTotal=47 ; lastSentAt=N/A
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649390119 ; action=DELETE ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@2ce46652 ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649412974 ; action=DELETE ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@29d8bd23 ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649390119 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@6fb6220 ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 17:25:16 ; type=DEVICE ; address=1446649412974 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@15aeb7d9 ; 
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:25:26 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=32
+2015-11-04 17:25:43 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=STREAMING ; configuration=null ; 
+2015-11-04 17:25:45 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=STREAMING ; configuration=null ; 
+2015-11-04 17:25:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4324 ; temperature=32
+2015-11-04 17:25:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=32
+2015-11-04 17:25:57 ; type=BUNDLE ; nbReady=48 ; nbTotal=48 ; lastSentAt=N/A
+2015-11-04 17:26:13 ; type=BUNDLE ; nbReady=49 ; nbTotal=49 ; lastSentAt=N/A
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:26:43 ; type=BUNDLE ; nbReady=50 ; nbTotal=50 ; lastSentAt=N/A
+2015-11-04 17:26:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=32
+2015-11-04 17:26:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=32
+2015-11-04 17:27:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=33
+2015-11-04 17:27:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=33
+2015-11-04 17:27:13 ; type=BUNDLE ; nbReady=51 ; nbTotal=51 ; lastSentAt=N/A
+2015-11-04 17:27:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=35
+2015-11-04 17:27:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=35
+2015-11-04 17:27:43 ; type=BUNDLE ; nbReady=52 ; nbTotal=52 ; lastSentAt=N/A
+2015-11-04 17:28:13 ; type=BUNDLE ; nbReady=53 ; nbTotal=53 ; lastSentAt=N/A
+2015-11-04 17:28:43 ; type=BUNDLE ; nbReady=54 ; nbTotal=54 ; lastSentAt=N/A
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:29:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=35
+2015-11-04 17:29:13 ; type=BUNDLE ; nbReady=55 ; nbTotal=55 ; lastSentAt=N/A
+2015-11-04 17:29:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=34
+2015-11-04 17:29:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4324 ; temperature=34
+2015-11-04 17:29:43 ; type=BUNDLE ; nbReady=56 ; nbTotal=56 ; lastSentAt=N/A
+2015-11-04 17:29:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=33
+2015-11-04 17:29:48 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=33
+2015-11-04 17:30:13 ; type=BUNDLE ; nbReady=57 ; nbTotal=57 ; lastSentAt=N/A
+2015-11-04 17:30:43 ; type=BUNDLE ; nbReady=58 ; nbTotal=58 ; lastSentAt=N/A
+2015-11-04 17:30:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4322 ; temperature=32
+2015-11-04 17:31:13 ; type=BUNDLE ; nbReady=59 ; nbTotal=59 ; lastSentAt=N/A
+2015-11-04 17:31:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4324 ; temperature=33
+2015-11-04 17:31:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=33
+2015-11-04 17:31:43 ; type=BUNDLE ; nbReady=60 ; nbTotal=60 ; lastSentAt=N/A
+2015-11-04 17:31:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=35
+2015-11-04 17:32:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4323 ; temperature=36
+2015-11-04 17:32:13 ; type=BUNDLE ; nbReady=61 ; nbTotal=61 ; lastSentAt=N/A
+2015-11-04 17:32:43 ; type=BUNDLE ; nbReady=62 ; nbTotal=62 ; lastSentAt=N/A
+2015-11-04 17:32:44 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4317 ; temperature=37
+2015-11-04 17:32:44 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4318 ; temperature=37
+2015-11-04 17:32:44 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4317 ; temperature=37
+2015-11-04 17:33:13 ; type=BUNDLE ; nbReady=63 ; nbTotal=63 ; lastSentAt=N/A
+2015-11-04 17:33:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4315 ; temperature=37
+2015-11-04 17:33:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4316 ; temperature=37
+2015-11-04 17:33:43 ; type=BUNDLE ; nbReady=64 ; nbTotal=64 ; lastSentAt=N/A
+2015-11-04 17:34:13 ; type=BUNDLE ; nbReady=65 ; nbTotal=65 ; lastSentAt=N/A
+2015-11-04 17:34:43 ; type=BUNDLE ; nbReady=66 ; nbTotal=66 ; lastSentAt=N/A
+2015-11-04 17:35:13 ; type=BUNDLE ; nbReady=67 ; nbTotal=67 ; lastSentAt=N/A
+2015-11-04 17:35:43 ; type=BUNDLE ; nbReady=68 ; nbTotal=68 ; lastSentAt=N/A
+2015-11-04 17:35:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4315 ; temperature=39
+2015-11-04 17:36:13 ; type=BUNDLE ; nbReady=69 ; nbTotal=69 ; lastSentAt=N/A
+2015-11-04 17:36:43 ; type=BUNDLE ; nbReady=70 ; nbTotal=70 ; lastSentAt=N/A
+2015-11-04 17:37:13 ; type=BUNDLE ; nbReady=71 ; nbTotal=71 ; lastSentAt=N/A
+2015-11-04 17:37:43 ; type=BUNDLE ; nbReady=72 ; nbTotal=72 ; lastSentAt=N/A
+2015-11-04 17:38:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4315 ; temperature=39
+2015-11-04 17:38:13 ; type=BUNDLE ; nbReady=73 ; nbTotal=73 ; lastSentAt=N/A
+2015-11-04 17:38:43 ; type=BUNDLE ; nbReady=74 ; nbTotal=74 ; lastSentAt=N/A
+2015-11-04 17:39:06 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4315 ; temperature=41
+2015-11-04 17:39:13 ; type=BUNDLE ; nbReady=75 ; nbTotal=75 ; lastSentAt=N/A
+2015-11-04 17:39:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=41
+2015-11-04 17:39:43 ; type=BUNDLE ; nbReady=76 ; nbTotal=76 ; lastSentAt=N/A
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:40:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4315 ; temperature=41
+2015-11-04 17:40:13 ; type=BUNDLE ; nbReady=77 ; nbTotal=77 ; lastSentAt=N/A
+2015-11-04 17:40:43 ; type=BUNDLE ; nbReady=78 ; nbTotal=78 ; lastSentAt=N/A
+2015-11-04 17:40:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=41
+2015-11-04 17:40:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=41
+2015-11-04 17:41:13 ; type=BUNDLE ; nbReady=79 ; nbTotal=79 ; lastSentAt=N/A
+2015-11-04 17:41:43 ; type=BUNDLE ; nbReady=80 ; nbTotal=80 ; lastSentAt=N/A
+2015-11-04 17:42:13 ; type=BUNDLE ; nbReady=81 ; nbTotal=81 ; lastSentAt=N/A
+2015-11-04 17:42:43 ; type=BUNDLE ; nbReady=82 ; nbTotal=82 ; lastSentAt=N/A
+2015-11-04 17:43:13 ; type=BUNDLE ; nbReady=83 ; nbTotal=83 ; lastSentAt=N/A
+2015-11-04 17:43:43 ; type=BUNDLE ; nbReady=84 ; nbTotal=84 ; lastSentAt=N/A
+2015-11-04 17:44:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=42
+2015-11-04 17:44:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=42
+2015-11-04 17:44:13 ; type=BUNDLE ; nbReady=85 ; nbTotal=85 ; lastSentAt=N/A
+2015-11-04 17:44:43 ; type=BUNDLE ; nbReady=86 ; nbTotal=86 ; lastSentAt=N/A
+2015-11-04 17:44:47 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=42
+2015-11-04 17:45:13 ; type=BUNDLE ; nbReady=87 ; nbTotal=87 ; lastSentAt=N/A
+2015-11-04 17:45:43 ; type=BUNDLE ; nbReady=88 ; nbTotal=88 ; lastSentAt=N/A
+2015-11-04 17:46:13 ; type=BUNDLE ; nbReady=89 ; nbTotal=89 ; lastSentAt=N/A
+2015-11-04 17:46:27 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=42
+2015-11-04 17:46:43 ; type=BUNDLE ; nbReady=90 ; nbTotal=90 ; lastSentAt=N/A
+2015-11-04 17:47:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=42
+2015-11-04 17:47:13 ; type=BUNDLE ; nbReady=91 ; nbTotal=91 ; lastSentAt=N/A
+2015-11-04 17:47:43 ; type=BUNDLE ; nbReady=92 ; nbTotal=92 ; lastSentAt=N/A
+2015-11-04 17:48:07 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=43
+2015-11-04 17:48:12 ; type=BUNDLE ; nbReady=93 ; nbTotal=93 ; lastSentAt=N/A
+2015-11-04 17:48:43 ; type=BUNDLE ; nbReady=94 ; nbTotal=94 ; lastSentAt=N/A
+2015-11-04 17:49:13 ; type=BUNDLE ; nbReady=95 ; nbTotal=95 ; lastSentAt=N/A
+2015-11-04 17:49:43 ; type=BUNDLE ; nbReady=96 ; nbTotal=96 ; lastSentAt=N/A
+2015-11-04 17:50:08 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=43
+2015-11-04 17:50:13 ; type=BUNDLE ; nbReady=97 ; nbTotal=97 ; lastSentAt=N/A
+2015-11-04 17:50:28 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=44
+2015-11-04 17:50:28 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=44
+2015-11-04 17:50:43 ; type=BUNDLE ; nbReady=98 ; nbTotal=98 ; lastSentAt=N/A
+2015-11-04 17:51:13 ; type=BUNDLE ; nbReady=99 ; nbTotal=99 ; lastSentAt=N/A
+2015-11-04 17:51:43 ; type=BUNDLE ; nbReady=100 ; nbTotal=100 ; lastSentAt=N/A
+2015-11-04 17:51:54 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=44
+2015-11-04 17:51:54 ; type=BATTERY ; level=100% ; state=FULL ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=44
+2015-11-04 17:51:58 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=45
+2015-11-04 17:51:58 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=45
+2015-11-04 17:52:13 ; type=BUNDLE ; nbReady=101 ; nbTotal=101 ; lastSentAt=N/A
+2015-11-04 17:52:43 ; type=BUNDLE ; nbReady=102 ; nbTotal=102 ; lastSentAt=N/A
+2015-11-04 17:53:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=45
+2015-11-04 17:53:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=45
+2015-11-04 17:53:13 ; type=BUNDLE ; nbReady=103 ; nbTotal=103 ; lastSentAt=N/A
+2015-11-04 17:53:43 ; type=BUNDLE ; nbReady=104 ; nbTotal=104 ; lastSentAt=N/A
+2015-11-04 17:54:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=46
+2015-11-04 17:54:13 ; type=BUNDLE ; nbReady=105 ; nbTotal=105 ; lastSentAt=N/A
+2015-11-04 17:54:43 ; type=BUNDLE ; nbReady=106 ; nbTotal=106 ; lastSentAt=N/A
+2015-11-04 17:55:13 ; type=BUNDLE ; nbReady=107 ; nbTotal=107 ; lastSentAt=N/A
+2015-11-04 17:55:43 ; type=BUNDLE ; nbReady=108 ; nbTotal=108 ; lastSentAt=N/A
+2015-11-04 17:55:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 17:56:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 17:56:13 ; type=BUNDLE ; nbReady=109 ; nbTotal=109 ; lastSentAt=N/A
+2015-11-04 17:56:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 17:56:43 ; type=BUNDLE ; nbReady=110 ; nbTotal=110 ; lastSentAt=N/A
+2015-11-04 17:57:13 ; type=BUNDLE ; nbReady=111 ; nbTotal=111 ; lastSentAt=N/A
+2015-11-04 17:57:43 ; type=BUNDLE ; nbReady=112 ; nbTotal=112 ; lastSentAt=N/A
+2015-11-04 17:58:13 ; type=BUNDLE ; nbReady=113 ; nbTotal=113 ; lastSentAt=N/A
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 17:58:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 17:58:43 ; type=BUNDLE ; nbReady=114 ; nbTotal=114 ; lastSentAt=N/A
+2015-11-04 17:58:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4305 ; temperature=47
+2015-11-04 17:58:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=47
+2015-11-04 17:59:13 ; type=BUNDLE ; nbReady=115 ; nbTotal=115 ; lastSentAt=N/A
+2015-11-04 17:59:43 ; type=BUNDLE ; nbReady=116 ; nbTotal=116 ; lastSentAt=N/A
+2015-11-04 17:59:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=47
+2015-11-04 17:59:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:00:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:00:13 ; type=BUNDLE ; nbReady=117 ; nbTotal=117 ; lastSentAt=N/A
+2015-11-04 18:00:43 ; type=BUNDLE ; nbReady=118 ; nbTotal=118 ; lastSentAt=N/A
+2015-11-04 18:01:13 ; type=BUNDLE ; nbReady=119 ; nbTotal=119 ; lastSentAt=N/A
+2015-11-04 18:01:43 ; type=BUNDLE ; nbReady=120 ; nbTotal=120 ; lastSentAt=N/A
+2015-11-04 18:02:13 ; type=BUNDLE ; nbReady=121 ; nbTotal=121 ; lastSentAt=N/A
+2015-11-04 18:02:43 ; type=BUNDLE ; nbReady=122 ; nbTotal=122 ; lastSentAt=N/A
+2015-11-04 18:03:13 ; type=BUNDLE ; nbReady=123 ; nbTotal=123 ; lastSentAt=N/A
+2015-11-04 18:03:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:03:43 ; type=BUNDLE ; nbReady=124 ; nbTotal=124 ; lastSentAt=N/A
+2015-11-04 18:04:13 ; type=BUNDLE ; nbReady=125 ; nbTotal=125 ; lastSentAt=N/A
+2015-11-04 18:04:43 ; type=BUNDLE ; nbReady=126 ; nbTotal=126 ; lastSentAt=N/A
+2015-11-04 18:05:13 ; type=BUNDLE ; nbReady=127 ; nbTotal=127 ; lastSentAt=N/A
+2015-11-04 18:05:43 ; type=BUNDLE ; nbReady=128 ; nbTotal=128 ; lastSentAt=N/A
+2015-11-04 18:06:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:06:13 ; type=BUNDLE ; nbReady=129 ; nbTotal=129 ; lastSentAt=N/A
+2015-11-04 18:06:43 ; type=BUNDLE ; nbReady=130 ; nbTotal=130 ; lastSentAt=N/A
+2015-11-04 18:06:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=47
+2015-11-04 18:06:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:07:13 ; type=BUNDLE ; nbReady=131 ; nbTotal=131 ; lastSentAt=N/A
+2015-11-04 18:07:43 ; type=BUNDLE ; nbReady=132 ; nbTotal=132 ; lastSentAt=N/A
+2015-11-04 18:07:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4314 ; temperature=47
+2015-11-04 18:07:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:08:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:08:13 ; type=BUNDLE ; nbReady=133 ; nbTotal=133 ; lastSentAt=N/A
+2015-11-04 18:08:43 ; type=BUNDLE ; nbReady=134 ; nbTotal=134 ; lastSentAt=N/A
+2015-11-04 18:09:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4313 ; temperature=47
+2015-11-04 18:09:13 ; type=BUNDLE ; nbReady=135 ; nbTotal=135 ; lastSentAt=N/A
+2015-11-04 18:09:43 ; type=BUNDLE ; nbReady=136 ; nbTotal=136 ; lastSentAt=N/A
+2015-11-04 18:10:13 ; type=BUNDLE ; nbReady=137 ; nbTotal=137 ; lastSentAt=N/A
+2015-11-04 18:10:43 ; type=BUNDLE ; nbReady=138 ; nbTotal=138 ; lastSentAt=N/A
+2015-11-04 18:10:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=47
+2015-11-04 18:11:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=47
+2015-11-04 18:11:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=47
+2015-11-04 18:11:13 ; type=BUNDLE ; nbReady=139 ; nbTotal=139 ; lastSentAt=N/A
+2015-11-04 18:11:43 ; type=BUNDLE ; nbReady=140 ; nbTotal=140 ; lastSentAt=N/A
+2015-11-04 18:12:14 ; type=BUNDLE ; nbReady=141 ; nbTotal=141 ; lastSentAt=N/A
+2015-11-04 18:12:44 ; type=BUNDLE ; nbReady=142 ; nbTotal=142 ; lastSentAt=N/A
+2015-11-04 18:13:14 ; type=BUNDLE ; nbReady=143 ; nbTotal=143 ; lastSentAt=N/A
+2015-11-04 18:13:44 ; type=BUNDLE ; nbReady=144 ; nbTotal=144 ; lastSentAt=N/A
+2015-11-04 18:14:14 ; type=BUNDLE ; nbReady=145 ; nbTotal=145 ; lastSentAt=N/A
+2015-11-04 18:14:44 ; type=BUNDLE ; nbReady=146 ; nbTotal=146 ; lastSentAt=N/A
+2015-11-04 18:15:14 ; type=BUNDLE ; nbReady=147 ; nbTotal=147 ; lastSentAt=N/A
+2015-11-04 18:15:44 ; type=BUNDLE ; nbReady=148 ; nbTotal=148 ; lastSentAt=N/A
+2015-11-04 18:16:14 ; type=BUNDLE ; nbReady=149 ; nbTotal=149 ; lastSentAt=N/A
+2015-11-04 18:16:44 ; type=BUNDLE ; nbReady=150 ; nbTotal=150 ; lastSentAt=N/A
+2015-11-04 18:17:14 ; type=BUNDLE ; nbReady=151 ; nbTotal=151 ; lastSentAt=N/A
+2015-11-04 18:17:44 ; type=BUNDLE ; nbReady=152 ; nbTotal=152 ; lastSentAt=N/A
+2015-11-04 18:18:14 ; type=BUNDLE ; nbReady=153 ; nbTotal=153 ; lastSentAt=N/A
+2015-11-04 18:18:44 ; type=BUNDLE ; nbReady=154 ; nbTotal=154 ; lastSentAt=N/A
+2015-11-04 18:19:14 ; type=BUNDLE ; nbReady=155 ; nbTotal=155 ; lastSentAt=N/A
+2015-11-04 18:19:43 ; type=BUNDLE ; nbReady=156 ; nbTotal=156 ; lastSentAt=N/A
+2015-11-04 18:19:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:20:13 ; type=BUNDLE ; nbReady=157 ; nbTotal=157 ; lastSentAt=N/A
+2015-11-04 18:20:44 ; type=BUNDLE ; nbReady=158 ; nbTotal=158 ; lastSentAt=N/A
+2015-11-04 18:20:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:21:13 ; type=BUNDLE ; nbReady=159 ; nbTotal=159 ; lastSentAt=N/A
+2015-11-04 18:21:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:21:43 ; type=BUNDLE ; nbReady=160 ; nbTotal=160 ; lastSentAt=N/A
+2015-11-04 18:22:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=48
+2015-11-04 18:22:13 ; type=BUNDLE ; nbReady=161 ; nbTotal=161 ; lastSentAt=N/A
+2015-11-04 18:22:43 ; type=BUNDLE ; nbReady=162 ; nbTotal=162 ; lastSentAt=N/A
+2015-11-04 18:23:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:23:13 ; type=BUNDLE ; nbReady=163 ; nbTotal=163 ; lastSentAt=N/A
+2015-11-04 18:23:44 ; type=BUNDLE ; nbReady=164 ; nbTotal=164 ; lastSentAt=N/A
+2015-11-04 18:24:13 ; type=BUNDLE ; nbReady=165 ; nbTotal=165 ; lastSentAt=N/A
+2015-11-04 18:24:43 ; type=BUNDLE ; nbReady=166 ; nbTotal=166 ; lastSentAt=N/A
+2015-11-04 18:24:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:25:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:25:13 ; type=BUNDLE ; nbReady=167 ; nbTotal=167 ; lastSentAt=N/A
+2015-11-04 18:25:43 ; type=BUNDLE ; nbReady=168 ; nbTotal=168 ; lastSentAt=N/A
+2015-11-04 18:26:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:26:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:26:13 ; type=BUNDLE ; nbReady=169 ; nbTotal=169 ; lastSentAt=N/A
+2015-11-04 18:26:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4307 ; temperature=48
+2015-11-04 18:26:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 18:26:44 ; type=BUNDLE ; nbReady=170 ; nbTotal=170 ; lastSentAt=N/A
+2015-11-04 18:27:13 ; type=BUNDLE ; nbReady=171 ; nbTotal=171 ; lastSentAt=N/A
+2015-11-04 18:27:43 ; type=BUNDLE ; nbReady=172 ; nbTotal=172 ; lastSentAt=N/A
+2015-11-04 18:28:13 ; type=BUNDLE ; nbReady=173 ; nbTotal=173 ; lastSentAt=N/A
+2015-11-04 18:28:43 ; type=BUNDLE ; nbReady=174 ; nbTotal=174 ; lastSentAt=N/A
+2015-11-04 18:29:13 ; type=BUNDLE ; nbReady=175 ; nbTotal=175 ; lastSentAt=N/A
+2015-11-04 18:29:44 ; type=BUNDLE ; nbReady=176 ; nbTotal=176 ; lastSentAt=N/A
+2015-11-04 18:30:13 ; type=BUNDLE ; nbReady=177 ; nbTotal=177 ; lastSentAt=N/A
+2015-11-04 18:30:43 ; type=BUNDLE ; nbReady=178 ; nbTotal=178 ; lastSentAt=N/A
+2015-11-04 18:31:13 ; type=BUNDLE ; nbReady=179 ; nbTotal=179 ; lastSentAt=N/A
+2015-11-04 18:31:43 ; type=BUNDLE ; nbReady=180 ; nbTotal=180 ; lastSentAt=N/A
+2015-11-04 18:32:13 ; type=BUNDLE ; nbReady=181 ; nbTotal=181 ; lastSentAt=N/A
+2015-11-04 18:32:44 ; type=BUNDLE ; nbReady=182 ; nbTotal=182 ; lastSentAt=N/A
+2015-11-04 18:33:13 ; type=BUNDLE ; nbReady=183 ; nbTotal=183 ; lastSentAt=N/A
+2015-11-04 18:33:44 ; type=BUNDLE ; nbReady=184 ; nbTotal=184 ; lastSentAt=N/A
+2015-11-04 18:34:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:34:14 ; type=BUNDLE ; nbReady=185 ; nbTotal=185 ; lastSentAt=N/A
+2015-11-04 18:34:43 ; type=BUNDLE ; nbReady=186 ; nbTotal=186 ; lastSentAt=N/A
+2015-11-04 18:35:13 ; type=BUNDLE ; nbReady=187 ; nbTotal=187 ; lastSentAt=N/A
+2015-11-04 18:35:44 ; type=BUNDLE ; nbReady=188 ; nbTotal=188 ; lastSentAt=N/A
+2015-11-04 18:36:13 ; type=BUNDLE ; nbReady=189 ; nbTotal=189 ; lastSentAt=N/A
+2015-11-04 18:36:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:36:43 ; type=BUNDLE ; nbReady=190 ; nbTotal=190 ; lastSentAt=N/A
+2015-11-04 18:37:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=49
+2015-11-04 18:37:14 ; type=BUNDLE ; nbReady=191 ; nbTotal=191 ; lastSentAt=N/A
+2015-11-04 18:37:43 ; type=BUNDLE ; nbReady=192 ; nbTotal=192 ; lastSentAt=N/A
+2015-11-04 18:38:13 ; type=BUNDLE ; nbReady=193 ; nbTotal=193 ; lastSentAt=N/A
+2015-11-04 18:38:44 ; type=BUNDLE ; nbReady=194 ; nbTotal=194 ; lastSentAt=N/A
+2015-11-04 18:39:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:39:13 ; type=BUNDLE ; nbReady=195 ; nbTotal=195 ; lastSentAt=N/A
+2015-11-04 18:39:43 ; type=BUNDLE ; nbReady=196 ; nbTotal=196 ; lastSentAt=N/A
+2015-11-04 18:40:13 ; type=BUNDLE ; nbReady=197 ; nbTotal=197 ; lastSentAt=N/A
+2015-11-04 18:40:44 ; type=BUNDLE ; nbReady=198 ; nbTotal=198 ; lastSentAt=N/A
+2015-11-04 18:40:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:40:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=49
+2015-11-04 18:41:13 ; type=BUNDLE ; nbReady=199 ; nbTotal=199 ; lastSentAt=N/A
+2015-11-04 18:41:44 ; type=BUNDLE ; nbReady=200 ; nbTotal=200 ; lastSentAt=N/A
+2015-11-04 18:42:13 ; type=BUNDLE ; nbReady=201 ; nbTotal=201 ; lastSentAt=N/A
+2015-11-04 18:42:43 ; type=BUNDLE ; nbReady=202 ; nbTotal=202 ; lastSentAt=N/A
+2015-11-04 18:43:13 ; type=BUNDLE ; nbReady=203 ; nbTotal=203 ; lastSentAt=N/A
+2015-11-04 18:43:43 ; type=BUNDLE ; nbReady=204 ; nbTotal=204 ; lastSentAt=N/A
+2015-11-04 18:44:13 ; type=BUNDLE ; nbReady=205 ; nbTotal=205 ; lastSentAt=N/A
+2015-11-04 18:44:44 ; type=BUNDLE ; nbReady=206 ; nbTotal=206 ; lastSentAt=N/A
+2015-11-04 18:45:13 ; type=BUNDLE ; nbReady=207 ; nbTotal=207 ; lastSentAt=N/A
+2015-11-04 18:45:43 ; type=BUNDLE ; nbReady=208 ; nbTotal=208 ; lastSentAt=N/A
+2015-11-04 18:46:13 ; type=BUNDLE ; nbReady=209 ; nbTotal=209 ; lastSentAt=N/A
+2015-11-04 18:46:43 ; type=BUNDLE ; nbReady=210 ; nbTotal=210 ; lastSentAt=N/A
+2015-11-04 18:47:13 ; type=BUNDLE ; nbReady=211 ; nbTotal=211 ; lastSentAt=N/A
+2015-11-04 18:47:44 ; type=BUNDLE ; nbReady=212 ; nbTotal=212 ; lastSentAt=N/A
+2015-11-04 18:48:13 ; type=BUNDLE ; nbReady=213 ; nbTotal=213 ; lastSentAt=N/A
+2015-11-04 18:48:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4310 ; temperature=50
+2015-11-04 18:48:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4297 ; temperature=50
+2015-11-04 18:48:43 ; type=BUNDLE ; nbReady=214 ; nbTotal=214 ; lastSentAt=N/A
+2015-11-04 18:48:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 18:48:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 18:49:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:49:13 ; type=BUNDLE ; nbReady=215 ; nbTotal=215 ; lastSentAt=N/A
+2015-11-04 18:49:43 ; type=BUNDLE ; nbReady=216 ; nbTotal=216 ; lastSentAt=N/A
+2015-11-04 18:50:13 ; type=BUNDLE ; nbReady=217 ; nbTotal=217 ; lastSentAt=N/A
+2015-11-04 18:50:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:50:43 ; type=BUNDLE ; nbReady=218 ; nbTotal=218 ; lastSentAt=N/A
+2015-11-04 18:50:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:51:13 ; type=BUNDLE ; nbReady=219 ; nbTotal=219 ; lastSentAt=N/A
+2015-11-04 18:51:43 ; type=BUNDLE ; nbReady=220 ; nbTotal=220 ; lastSentAt=N/A
+2015-11-04 18:52:13 ; type=BUNDLE ; nbReady=221 ; nbTotal=221 ; lastSentAt=N/A
+2015-11-04 18:52:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=50
+2015-11-04 18:52:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=50
+2015-11-04 18:52:43 ; type=BUNDLE ; nbReady=222 ; nbTotal=222 ; lastSentAt=N/A
+2015-11-04 18:53:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=49
+2015-11-04 18:53:08 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:53:13 ; type=BUNDLE ; nbReady=223 ; nbTotal=223 ; lastSentAt=N/A
+2015-11-04 18:53:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:53:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4303 ; temperature=50
+2015-11-04 18:53:43 ; type=BUNDLE ; nbReady=224 ; nbTotal=224 ; lastSentAt=N/A
+2015-11-04 18:54:13 ; type=BUNDLE ; nbReady=225 ; nbTotal=225 ; lastSentAt=N/A
+2015-11-04 18:54:43 ; type=BUNDLE ; nbReady=226 ; nbTotal=226 ; lastSentAt=N/A
+2015-11-04 18:55:13 ; type=BUNDLE ; nbReady=227 ; nbTotal=227 ; lastSentAt=N/A
+2015-11-04 18:55:43 ; type=BUNDLE ; nbReady=228 ; nbTotal=228 ; lastSentAt=N/A
+2015-11-04 18:55:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4310 ; temperature=50
+2015-11-04 18:55:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:56:13 ; type=BUNDLE ; nbReady=229 ; nbTotal=229 ; lastSentAt=N/A
+2015-11-04 18:56:43 ; type=BUNDLE ; nbReady=230 ; nbTotal=230 ; lastSentAt=N/A
+2015-11-04 18:57:13 ; type=BUNDLE ; nbReady=231 ; nbTotal=231 ; lastSentAt=N/A
+2015-11-04 18:57:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=49
+2015-11-04 18:57:43 ; type=BUNDLE ; nbReady=232 ; nbTotal=232 ; lastSentAt=N/A
+2015-11-04 18:57:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=49
+2015-11-04 18:57:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=49
+2015-11-04 18:58:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:58:13 ; type=BUNDLE ; nbReady=233 ; nbTotal=233 ; lastSentAt=N/A
+2015-11-04 18:58:43 ; type=BUNDLE ; nbReady=234 ; nbTotal=234 ; lastSentAt=N/A
+2015-11-04 18:59:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 18:59:13 ; type=BUNDLE ; nbReady=235 ; nbTotal=235 ; lastSentAt=N/A
+2015-11-04 18:59:43 ; type=BUNDLE ; nbReady=236 ; nbTotal=236 ; lastSentAt=N/A
+2015-11-04 19:00:13 ; type=BUNDLE ; nbReady=237 ; nbTotal=237 ; lastSentAt=N/A
+2015-11-04 19:00:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:00:43 ; type=BUNDLE ; nbReady=238 ; nbTotal=238 ; lastSentAt=N/A
+2015-11-04 19:00:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:00:48 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:01:13 ; type=BUNDLE ; nbReady=239 ; nbTotal=239 ; lastSentAt=N/A
+2015-11-04 19:01:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:01:43 ; type=BUNDLE ; nbReady=240 ; nbTotal=240 ; lastSentAt=N/A
+2015-11-04 19:02:13 ; type=BUNDLE ; nbReady=241 ; nbTotal=241 ; lastSentAt=N/A
+2015-11-04 19:02:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4310 ; temperature=51
+2015-11-04 19:02:28 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4302 ; temperature=51
+2015-11-04 19:02:43 ; type=BUNDLE ; nbReady=242 ; nbTotal=242 ; lastSentAt=N/A
+2015-11-04 19:03:13 ; type=BUNDLE ; nbReady=243 ; nbTotal=243 ; lastSentAt=N/A
+2015-11-04 19:03:43 ; type=BUNDLE ; nbReady=244 ; nbTotal=244 ; lastSentAt=N/A
+2015-11-04 19:03:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 19:04:13 ; type=BUNDLE ; nbReady=245 ; nbTotal=245 ; lastSentAt=N/A
+2015-11-04 19:04:43 ; type=BUNDLE ; nbReady=246 ; nbTotal=246 ; lastSentAt=N/A
+2015-11-04 19:05:13 ; type=BUNDLE ; nbReady=247 ; nbTotal=247 ; lastSentAt=N/A
+2015-11-04 19:05:43 ; type=BUNDLE ; nbReady=248 ; nbTotal=248 ; lastSentAt=N/A
+2015-11-04 19:05:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=50
+2015-11-04 19:05:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:06:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:06:13 ; type=BUNDLE ; nbReady=249 ; nbTotal=249 ; lastSentAt=N/A
+2015-11-04 19:06:43 ; type=BUNDLE ; nbReady=250 ; nbTotal=250 ; lastSentAt=N/A
+2015-11-04 19:07:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:07:13 ; type=BUNDLE ; nbReady=251 ; nbTotal=251 ; lastSentAt=N/A
+2015-11-04 19:07:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:07:43 ; type=BUNDLE ; nbReady=252 ; nbTotal=252 ; lastSentAt=N/A
+2015-11-04 19:08:13 ; type=BUNDLE ; nbReady=253 ; nbTotal=253 ; lastSentAt=N/A
+2015-11-04 19:08:43 ; type=BUNDLE ; nbReady=254 ; nbTotal=254 ; lastSentAt=N/A
+2015-11-04 19:08:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:08:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:09:13 ; type=BUNDLE ; nbReady=255 ; nbTotal=255 ; lastSentAt=N/A
+2015-11-04 19:09:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:09:27 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=50
+2015-11-04 19:09:43 ; type=BUNDLE ; nbReady=256 ; nbTotal=256 ; lastSentAt=N/A
+2015-11-04 19:10:13 ; type=BUNDLE ; nbReady=257 ; nbTotal=257 ; lastSentAt=N/A
+2015-11-04 19:10:43 ; type=BUNDLE ; nbReady=258 ; nbTotal=258 ; lastSentAt=N/A
+2015-11-04 19:11:13 ; type=BUNDLE ; nbReady=259 ; nbTotal=259 ; lastSentAt=N/A
+2015-11-04 19:11:43 ; type=BUNDLE ; nbReady=260 ; nbTotal=260 ; lastSentAt=N/A
+2015-11-04 19:12:13 ; type=BUNDLE ; nbReady=261 ; nbTotal=261 ; lastSentAt=N/A
+2015-11-04 19:12:43 ; type=BUNDLE ; nbReady=262 ; nbTotal=262 ; lastSentAt=N/A
+2015-11-04 19:13:13 ; type=BUNDLE ; nbReady=263 ; nbTotal=263 ; lastSentAt=N/A
+2015-11-04 19:13:43 ; type=BUNDLE ; nbReady=264 ; nbTotal=264 ; lastSentAt=N/A
+2015-11-04 19:14:13 ; type=BUNDLE ; nbReady=265 ; nbTotal=265 ; lastSentAt=N/A
+2015-11-04 19:14:43 ; type=BUNDLE ; nbReady=266 ; nbTotal=266 ; lastSentAt=N/A
+2015-11-04 19:15:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 19:15:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4300 ; temperature=51
+2015-11-04 19:15:13 ; type=BUNDLE ; nbReady=267 ; nbTotal=267 ; lastSentAt=N/A
+2015-11-04 19:15:43 ; type=BUNDLE ; nbReady=268 ; nbTotal=268 ; lastSentAt=N/A
+2015-11-04 19:16:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 19:16:13 ; type=BUNDLE ; nbReady=269 ; nbTotal=269 ; lastSentAt=N/A
+2015-11-04 19:16:43 ; type=BUNDLE ; nbReady=270 ; nbTotal=270 ; lastSentAt=N/A
+2015-11-04 19:17:13 ; type=BUNDLE ; nbReady=271 ; nbTotal=271 ; lastSentAt=N/A
+2015-11-04 19:17:43 ; type=BUNDLE ; nbReady=272 ; nbTotal=272 ; lastSentAt=N/A
+2015-11-04 19:18:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:18:13 ; type=BUNDLE ; nbReady=273 ; nbTotal=273 ; lastSentAt=N/A
+2015-11-04 19:18:43 ; type=BUNDLE ; nbReady=274 ; nbTotal=274 ; lastSentAt=N/A
+2015-11-04 19:18:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 19:19:13 ; type=BUNDLE ; nbReady=275 ; nbTotal=275 ; lastSentAt=N/A
+2015-11-04 19:19:43 ; type=BUNDLE ; nbReady=276 ; nbTotal=276 ; lastSentAt=N/A
+2015-11-04 19:20:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 19:20:07 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=51
+2015-11-04 19:20:13 ; type=BUNDLE ; nbReady=277 ; nbTotal=277 ; lastSentAt=N/A
+2015-11-04 19:20:43 ; type=BUNDLE ; nbReady=278 ; nbTotal=278 ; lastSentAt=N/A
+2015-11-04 19:20:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:21:13 ; type=BUNDLE ; nbReady=279 ; nbTotal=279 ; lastSentAt=N/A
+2015-11-04 19:21:43 ; type=BUNDLE ; nbReady=280 ; nbTotal=280 ; lastSentAt=N/A
+2015-11-04 19:22:13 ; type=BUNDLE ; nbReady=281 ; nbTotal=281 ; lastSentAt=N/A
+2015-11-04 19:22:43 ; type=BUNDLE ; nbReady=282 ; nbTotal=282 ; lastSentAt=N/A
+2015-11-04 19:22:47 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=50
+2015-11-04 19:23:13 ; type=BUNDLE ; nbReady=283 ; nbTotal=283 ; lastSentAt=N/A
+2015-11-04 19:23:43 ; type=BUNDLE ; nbReady=284 ; nbTotal=284 ; lastSentAt=N/A
+2015-11-04 19:24:13 ; type=BUNDLE ; nbReady=285 ; nbTotal=285 ; lastSentAt=N/A
+2015-11-04 19:24:43 ; type=BUNDLE ; nbReady=286 ; nbTotal=286 ; lastSentAt=N/A
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:25:13 ; type=BUNDLE ; nbReady=287 ; nbTotal=287 ; lastSentAt=N/A
+2015-11-04 19:25:25 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4312 ; temperature=48
+2015-11-04 19:25:25 ; type=BATTERY ; level=100% ; state=CHARGING ; power source=AC ; health=GOOD ; voltage=4311 ; temperature=48
+2015-11-04 17:18:45 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138252034 ; localArea=31910 ; mcc=208 ; mcc=20
+2015-11-04 17:18:45 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:25:39 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4259 ; temperature=47
+2015-11-04 19:25:39 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4245 ; temperature=47
+2015-11-04 19:25:39 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4247 ; temperature=47
+2015-11-04 19:25:39 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4262 ; temperature=47
+2015-11-04 19:25:43 ; type=BUNDLE ; nbReady=288 ; nbTotal=288 ; lastSentAt=N/A
+2015-11-04 19:26:06 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4292 ; temperature=45
+2015-11-04 19:26:06 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4286 ; temperature=45
+2015-11-04 19:26:13 ; type=BUNDLE ; nbReady=289 ; nbTotal=289 ; lastSentAt=N/A
+2015-11-04 19:26:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4298 ; temperature=43
+2015-11-04 19:26:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4273 ; temperature=43
+2015-11-04 19:26:43 ; type=BUNDLE ; nbReady=290 ; nbTotal=290 ; lastSentAt=N/A
+2015-11-04 19:26:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4288 ; temperature=42
+2015-11-04 19:26:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4281 ; temperature=42
+2015-11-04 19:27:06 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4300 ; temperature=40
+2015-11-04 19:27:06 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4296 ; temperature=40
+2015-11-04 19:27:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4294 ; temperature=40
+2015-11-04 19:27:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4298 ; temperature=40
+2015-11-04 19:27:13 ; type=BUNDLE ; nbReady=291 ; nbTotal=291 ; lastSentAt=N/A
+2015-11-04 19:27:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4301 ; temperature=39
+2015-11-04 19:27:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4301 ; temperature=39
+2015-11-04 19:27:43 ; type=BUNDLE ; nbReady=292 ; nbTotal=292 ; lastSentAt=N/A
+2015-11-04 19:27:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4276 ; temperature=38
+2015-11-04 19:27:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4298 ; temperature=38
+2015-11-04 19:28:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4300 ; temperature=37
+2015-11-04 19:28:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4289 ; temperature=37
+2015-11-04 19:28:13 ; type=BUNDLE ; nbReady=293 ; nbTotal=293 ; lastSentAt=N/A
+2015-11-04 19:28:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4300 ; temperature=36
+2015-11-04 19:28:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4299 ; temperature=36
+2015-11-04 19:28:43 ; type=BUNDLE ; nbReady=294 ; nbTotal=294 ; lastSentAt=N/A
+2015-11-04 19:28:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4274 ; temperature=35
+2015-11-04 19:28:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4284 ; temperature=35
+2015-11-04 19:29:06 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:29:06 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138405890 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:29:13 ; type=BUNDLE ; nbReady=295 ; nbTotal=295 ; lastSentAt=N/A
+2015-11-04 19:29:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4266 ; temperature=34
+2015-11-04 19:29:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4261 ; temperature=34
+2015-11-04 19:29:43 ; type=BUNDLE ; nbReady=296 ; nbTotal=296 ; lastSentAt=N/A
+2015-11-04 19:30:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4286 ; temperature=33
+2015-11-04 19:30:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4279 ; temperature=33
+2015-11-04 19:30:13 ; type=BUNDLE ; nbReady=297 ; nbTotal=297 ; lastSentAt=N/A
+2015-11-04 19:30:43 ; type=BUNDLE ; nbReady=298 ; nbTotal=298 ; lastSentAt=N/A
+2015-11-04 19:31:13 ; type=BUNDLE ; nbReady=299 ; nbTotal=299 ; lastSentAt=N/A
+2015-11-04 19:31:43 ; type=BUNDLE ; nbReady=300 ; nbTotal=300 ; lastSentAt=N/A
+2015-11-04 19:32:13 ; type=BUNDLE ; nbReady=301 ; nbTotal=301 ; lastSentAt=N/A
+2015-11-04 19:32:43 ; type=BUNDLE ; nbReady=302 ; nbTotal=302 ; lastSentAt=N/A
+2015-11-04 19:33:13 ; type=BUNDLE ; nbReady=303 ; nbTotal=303 ; lastSentAt=N/A
+2015-11-04 19:33:17 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:17 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:33:20 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:33 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:33 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:33:33 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:40 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:43 ; type=BUNDLE ; nbReady=304 ; nbTotal=304 ; lastSentAt=N/A
+2015-11-04 19:33:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4236 ; temperature=34
+2015-11-04 19:33:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4233 ; temperature=34
+2015-11-04 19:33:55 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=citotel ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:56 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:58 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:58 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:33:59 ; type=NETWORK_WIFI ; state=AUTHENTICATING ; ssid=citotel ; bssid=ea:9d:c7:47:bd:68 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:00 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=citotel ; bssid=ea:9d:c7:47:bd:68 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:00 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:34:00 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=citotel ; bssid=ea:9d:c7:47:bd:68 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:07 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=citotel ; bssid=ea:9d:c7:47:bd:68 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:08 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=citotel ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:09 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=citotel ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:10 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:11 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:13 ; type=BUNDLE ; nbReady=305 ; nbTotal=305 ; lastSentAt=N/A
+2015-11-04 19:34:16 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:34:43 ; type=BUNDLE ; nbReady=306 ; nbTotal=306 ; lastSentAt=N/A
+2015-11-04 19:34:57 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-81 ; linkSpeed=1
+2015-11-04 19:35:05 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-83 ; linkSpeed=1
+2015-11-04 19:35:05 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:35:13 ; type=BUNDLE ; nbReady=307 ; nbTotal=307 ; lastSentAt=N/A
+2015-11-04 19:35:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4250 ; temperature=34
+2015-11-04 19:35:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4240 ; temperature=34
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:35:43 ; type=BUNDLE ; nbReady=308 ; nbTotal=308 ; lastSentAt=N/A
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:35:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4252 ; temperature=34
+2015-11-04 19:35:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4247 ; temperature=34
+2015-11-04 19:36:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4259 ; temperature=33
+2015-11-04 19:36:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4253 ; temperature=33
+2015-11-04 19:36:13 ; type=BUNDLE ; nbReady=309 ; nbTotal=309 ; lastSentAt=N/A
+2015-11-04 19:36:43 ; type=BUNDLE ; nbReady=310 ; nbTotal=310 ; lastSentAt=N/A
+2015-11-04 19:36:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4276 ; temperature=32
+2015-11-04 19:36:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4270 ; temperature=32
+2015-11-04 19:37:13 ; type=BUNDLE ; nbReady=311 ; nbTotal=311 ; lastSentAt=N/A
+2015-11-04 19:37:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4280 ; temperature=31
+2015-11-04 19:37:43 ; type=BUNDLE ; nbReady=312 ; nbTotal=312 ; lastSentAt=N/A
+2015-11-04 19:38:13 ; type=BUNDLE ; nbReady=313 ; nbTotal=313 ; lastSentAt=N/A
+2015-11-04 19:38:43 ; type=BUNDLE ; nbReady=314 ; nbTotal=314 ; lastSentAt=N/A
+2015-11-04 19:38:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4282 ; temperature=30
+2015-11-04 19:38:47 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4271 ; temperature=30
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:39:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4257 ; temperature=30
+2015-11-04 19:39:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4248 ; temperature=30
+2015-11-04 19:39:13 ; type=BUNDLE ; nbReady=315 ; nbTotal=315 ; lastSentAt=N/A
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:39:43 ; type=BUNDLE ; nbReady=316 ; nbTotal=316 ; lastSentAt=N/A
+2015-11-04 19:35:08 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:35:08 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-77 ; linkSpeed=12
+2015-11-04 19:40:13 ; type=BUNDLE ; nbReady=317 ; nbTotal=317 ; lastSentAt=N/A
+2015-11-04 19:40:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4248 ; temperature=30
+2015-11-04 19:40:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4242 ; temperature=32
+2015-11-04 19:40:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4238 ; temperature=32
+2015-11-04 19:40:27 ; type=DEVICE ; address=1446649390119 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 19:40:27 ; type=DEVICE ; address=1446649390119 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@322cbcad ; 
+2015-11-04 19:40:27 ; type=DEVICE ; address=1446649412974 ; action=UPDATE ; state=READY ; configuration=null ; 
+2015-11-04 19:40:27 ; type=DEVICE ; address=1446649412974 ; action=ADD ; state=READY ; configuration=casa.sherpam.plugininterface.configuration.DeviceConfiguration@19573be2 ; 
+2015-11-04 19:40:27 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-79 ; linkSpeed=6
+2015-11-04 19:40:27 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:41:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4267 ; temperature=31
+2015-11-04 19:41:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4268 ; temperature=31
+2015-11-04 19:40:27 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:40:27 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-79 ; linkSpeed=6
+2015-11-04 19:42:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4264 ; temperature=31
+2015-11-04 19:42:07 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4263 ; temperature=31
+2015-11-04 19:42:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4268 ; temperature=30
+2015-11-04 19:42:27 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4262 ; temperature=30
+2015-11-04 19:40:27 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:40:27 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-79 ; linkSpeed=6
+2015-11-04 19:40:27 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:40:27 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-79 ; linkSpeed=6
+2015-11-04 19:43:50 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=<unknown ssid> ; bssid=n/a ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:43:50 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=2147483647 ; localArea=2147483647 ; mcc=n/a ; mcc=n/a
+2015-11-04 19:43:54 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=n/a ; localArea=n/a ; mcc=n/a ; mcc=n/a
+2015-11-04 19:43:54 ; type=NETWORK_WIFI ; state=SCANNING ; ssid=0x ; bssid=00:00:00:00:00:00 ; rssid=-127 ; linkSpeed=-1
+2015-11-04 19:43:54 ; type=NETWORK_MOBILE ; state=CONNECTED ; network=LTE ; provider=mmsbouygtel.com ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:43:56 ; type=NETWORK_WIFI ; state=CONNECTING ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-86 ; linkSpeed=1
+2015-11-04 19:43:57 ; type=NETWORK_WIFI ; state=DISCONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-86 ; linkSpeed=1
+2015-11-04 19:44:00 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-82 ; linkSpeed=2
+2015-11-04 19:44:00 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:44:08 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4230 ; temperature=32
+2015-11-04 19:44:08 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4217 ; temperature=32
+2015-11-04 19:45:08 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4247 ; temperature=31
+2015-11-04 19:45:08 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4241 ; temperature=31
+2015-11-04 19:45:28 ; type=BATTERY ; level=100% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4264 ; temperature=30
+2015-11-04 19:45:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4263 ; temperature=30
+2015-11-04 19:45:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4258 ; temperature=30
+2015-11-04 19:46:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4266 ; temperature=29
+2015-11-04 19:46:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4260 ; temperature=29
+2015-11-04 19:44:00 ; type=NETWORK_MOBILE ; state=DISCONNECTED ; network= ; provider=n/a ; cellId=138405889 ; localArea=30801 ; mcc=208 ; mcc=20
+2015-11-04 19:44:00 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-82 ; linkSpeed=2
+2015-11-04 19:47:28 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4223 ; temperature=30
+2015-11-04 19:47:28 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4229 ; temperature=30
+2015-11-04 19:47:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4234 ; temperature=31
+2015-11-04 19:47:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4215 ; temperature=31
+2015-11-04 19:48:28 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4224 ; temperature=32
+2015-11-04 19:48:28 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4221 ; temperature=32
+2015-11-04 19:48:42 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-127 ; linkSpeed=0
+2015-11-04 19:48:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4206 ; temperature=32
+2015-11-04 19:48:48 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4214 ; temperature=32
+2015-11-04 19:48:54 ; type=NETWORK_WIFI ; state=CONNECTED ; ssid=Citotel Wifi ; bssid=64:66:b3:f6:6b:7e ; rssid=-76 ; linkSpeed=12
+2015-11-04 19:49:08 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4226 ; temperature=33
+2015-11-04 19:50:28 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4213 ; temperature=33
+2015-11-04 19:50:28 ; type=BATTERY ; level=99% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4212 ; temperature=33
+2015-11-04 19:51:08 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4227 ; temperature=34
+2015-11-04 19:51:08 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4210 ; temperature=34
+2015-11-04 19:51:28 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4212 ; temperature=35
+2015-11-04 19:51:28 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4188 ; temperature=35
+2015-11-04 19:51:48 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4215 ; temperature=36
+2015-11-04 19:51:48 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4199 ; temperature=36
+2015-11-04 19:52:08 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4217 ; temperature=35
+2015-11-04 19:52:08 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4199 ; temperature=35
+2015-11-04 19:53:28 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4225 ; temperature=35
+2015-11-04 19:53:28 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4208 ; temperature=35
+2015-11-04 19:54:08 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4209 ; temperature=35
+2015-11-04 19:54:08 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4198 ; temperature=35
+2015-11-04 19:54:28 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4172 ; temperature=36
+2015-11-04 19:54:28 ; type=BATTERY ; level=98% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4176 ; temperature=36
+2015-11-04 19:55:08 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4205 ; temperature=36
+2015-11-04 19:55:08 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4180 ; temperature=36
+2015-11-04 19:55:28 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4178 ; temperature=37
+2015-11-04 19:55:28 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4172 ; temperature=37
+2015-11-04 19:56:28 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4188 ; temperature=37
+2015-11-04 19:56:28 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4171 ; temperature=37
+2015-11-04 19:57:05 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4231 ; temperature=35
+2015-11-04 19:57:05 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4230 ; temperature=35
+2015-11-04 19:57:28 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4230 ; temperature=35
+2015-11-04 19:57:28 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4209 ; temperature=35
+2015-11-04 19:57:48 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4231 ; temperature=34
+2015-11-04 19:57:48 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4236 ; temperature=34
+2015-11-04 19:58:48 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4235 ; temperature=33
+2015-11-04 19:58:48 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4232 ; temperature=33
+2015-11-04 20:00:08 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4237 ; temperature=32
+2015-11-04 20:00:08 ; type=BATTERY ; level=97% ; state=DISCHARGING ; power source=NONE ; health=GOOD ; voltage=4221 ; temperature=32

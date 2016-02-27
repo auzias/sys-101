@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://sys-101.auzias.net/website/img/fav.ico">
+    <title>Maël Auzias' teaching website</title>
+    <link href="http://sys-101.auzias.net/website/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.auzias.net">System 101</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="practice/practice.html">Practice</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Practice exercices</h1>
+        <p class="lead">Feel free to send any course-related request to: <u>teaching<small> [at] </small>auzias<small> [dot] </small>net</u></p>
+      </div>
+	<hr/>
+	<div id="material">
+		<h1>Bash</h1>
+    <h2>Common notions</h2>
+		<ul>
+      <li>The prompt</li>
+      <li>$ command</li>
+      <li># command</li>
+      <li># command &amp;</li>
+      <li># command > log</li>
+      <li># command >> log</li>
+      <li># command < input</li>
+      <li># command1 | command2</li>
+      <li># command1 | command2 | command3</li>
+      <li>[Basic] commands:
+    		<ul>
+          <li>cd, pwd, ls, mv, rm, cp, head, tail, nano</li>
+          <li><strong>man</strong> for the <u>many</u> options</li>
+          <li>curl, wget, sort, uniq, echo, date, sed, cut, nc, ssh</li>
+        </ul>
+      </li>
+      <li>stdin, stdout, stderr</li>
+			<li>.bashrc</li>
+			<li>alias</li>
+			<li>function</li>
+			<li>script</li>
+		</ul>
+    <h2>Exercices</h2>
+    <ol>
+      <li>What time is it?
+        <ol>
+          <li>Write a script that outputs "Good morning", "Lunch time!", "Good afternoon", "Good evening" or "Go to sleep!" according to the hour.</li>
+          <li>How to add this as the start of every prompt.</li>
+        </ol>
+      </li>
+      <li>Using the log files provided:
+        <ol>
+          <li>Use wget to download:</li>
+            <ul>
+              <li>http://sys-101.auzias.net/practice/log01</li>
+              <li>http://sys-101.auzias.net/practice/log02</li>
+            </ul>
+          <li>How many lines do these two files have?</li>
+          <li>Create one big file (merge them).</li>
+          <li>How many lines does the big file have?</li>
+          <li>Sort them chronologically.</li>
+          <li>How many different log types are in this file?</li>
+          <li>Show 7 lines preceding the line #63 (included). What did happen?</li>
+          <li>Remove the '%'.</li>
+          <li>How much does the file weight?</li>
+          <li>Make it a real csv file.</li>
+          <li>Remove unnecessary WS. Does the file weight smaller?</li>
+          <li>The file has the form "k=v", remove "k=" to just keep the values. Does the file weight smaller?</li>
+          <li>When was the battery at its lowest?</li>
+          <li>What was the temperature at its highest?</li>
+        </ol>
+      </li>
+    </ol>
+	</div>
+	<hr/>
+	<div id="cc">
+		<h1>Licence</h1>
+		<p class="center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+		<span property="dct:title">Network courses</span> by <a href="http://sys-101.auzias.net" property="cc:attributionName" rel="cc:attributionURL">Maël Auzias</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work by Andrew Tanenbaum.</p>
+	</div>
+
+    </div><!-- /.container -->
+  </body>
+</html>
