@@ -121,11 +121,11 @@
     \frametitle{Threads}
         \begin{block}{Concurrent programming: race condition (example)}
           \begin{itemize}
-            \item Thread S, and N, respectively correspond to the South, and North, gate in a Park. 
+            \item Thread S, and N, respectively correspond to the South, and North, gate in a Park.
             \item They count the current number of visitors:
             \begin{itemize}
-              \item When a visitor enters, the counter is incremented by one. 
-              \item When a vistor leaves, the counter is decremented by one.
+              \item When a visitor enters, the counter is incremented by one.
+              \item When a visitor leaves, the counter is decremented by one.
             \end{itemize}
             \item Both threads share a common variable, the counter.
             \item They run on the same computer and, thus, share a sole CPU.
@@ -138,4 +138,12 @@
           \end{itemize}
         \end{block}
 	What could go wrong?
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Q/A}
+    \begin{itemize}
+      \item Why interruption handler are usually written in ASM? % Higher-level languages do not allow the hardware access needed.
+      \item What is an advantage and a inconvenient to implement thread in user space? % no need to trap but if a thread is blocked it stays blocked.
+    \end{itemize}
   \end{frame}
