@@ -152,7 +152,7 @@
           \end{itemize}
         \item {\color{OliveGreen}rwx} {\color{Marroon}rwx} {\color{fuchsia}rwx} do-what-ever-you-want-file
         \item {\color{OliveGreen}rwx} {\color{Marroon}rwx} {\color{fuchsia}r-x} web-file
-        \item {\color{OliveGreen}rw-} {\color{Marroon}rwx} {\color{fuchsia}rwx} virus
+        \item {\color{OliveGreen}rw-} {\color{Marroon}r-x} {\color{fuchsia}r-x} virus
         \item {\color{OliveGreen}r-x} {\color{Marroon}---} {\color{fuchsia}---} personal-backup.tgz
       \end{itemize}
     \begin{figure}
@@ -199,4 +199,19 @@
       \item The OS loads all these modules into the kernel,
       \item The OS initializes its table, creates background processes and starts up a login program.
     \end{enumerate}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Q/A}
+    \begin{itemize}
+      \item Why is the use of a process table in a timesharing system? Is it needed in single-process systems? % This table is needed to save the state of a suspended process. It's useless for single-process systems as the processes are not suspended
+      \item What is the purpose of a system call in an operating system? % sys-calls allow a user process to access kernel function
+      \item Why do process trees not usually last for years? % It would require the system not to be rebooted
+      \item In which situation a file tree would last for a few minutes? % Temporary files
+      \item How to recognize a virus permission? % read the slides, and think a little bit
+      \item What is the condition for N files to have the same name? % be in N different directories
+      \item What is the condition for N files to have the same path? % To be the same file
+      \item Why does a mounting point should be empty? % otherwise stored files are not accessible anymore
+      \item Why a system would need \emph{virtual} memory? % because physical memory cost a lot
+    \end{itemize}
   \end{frame}

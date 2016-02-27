@@ -13,10 +13,10 @@
   \frametitle{System calls}
   \begin{block}{System calls procedure}
     \begin{enumerate}
-      \item Switch from the program, within the user space, into the kernel space by executing a \textsc{trap} instruction.
+      \item Switch from the program, within the user space, into the kernel space by executing a trap instruction.
       \item The program starts the execution at a \textbf{fixed} address in the kernel space.
       \item The kernel code then examine the system call number and execute the matching system call handler.
-      \item The system call handler execute its code and then returnes the control to the program at the instruction following the \textsc{trap} instruction.
+      \item The system call handler execute its code and then returnes the control to the program at the instruction following the trap instruction.
         \begin{itemize}
           \item unless the system call blocks (i.e., waiting for an input on the keyboard).
         \end{itemize}
@@ -92,4 +92,12 @@
     \caption{Miscellaneous}
     \label{fig:sys-call_misc}
   \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Q/A}
+  \begin{itemize}
+    \item What is a trap instruction, its difference with an interuption? % there is not sync between a program and an interruption, whereas a trap instruction is performed by a program itself.
+    \item What is the purpose of a system call in an operating system? % sys-calls allow a user process to access kernel function.
+  \end{itemize}
 \end{frame}
