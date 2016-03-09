@@ -7,6 +7,9 @@
       \item .. results in a system call.
     \end{itemize}
   \end{block}
+  \begin{block}{System Calls}
+      Interface between user space and kernel space.
+  \end{block}
 \end{frame}
 
 \begin{frame}
@@ -16,7 +19,7 @@
       \item Switch from the program, within the user space, into the kernel space by executing a trap instruction.
       \item The program starts the execution at a \textbf{fixed} address in the kernel space.
       \item The kernel code then examine the system call number and execute the matching system call handler.
-      \item The system call handler execute its code and then returnes the control to the program at the instruction following the trap instruction.
+      \item The system call handler execute its code and then returns the control to the program at the instruction following the trap instruction.
         \begin{itemize}
           \item unless the system call blocks (i.e., waiting for an input on the keyboard).
         \end{itemize}
@@ -99,5 +102,13 @@
   \begin{itemize}
     \item What is a trap instruction, its difference with an interuption? % there is not sync between a program and an interruption, whereas a trap instruction is performed by a program itself.
     \item What is the purpose of a system call in an operating system? % sys-calls allow a user process to access kernel function.
+    \item Reading a file is a blocking operation. Should writing a file be a blocking operation too? % Depends: if the program overrides the buffer right after the call the written data may be corrupted. If the kernel copies the buffer before returning into the program is does not have to block.
+    \item What are the buffered data after these instructions:
+    \begin{itemize}
+        \item lseek(df, 3, SEEK\_SET);
+        \item read(df, buffer, 4);
+   \end{itemize}
+   if the pointed file df content is: 3,5,8,9,7,5,6,2,1,4 ?
+     % 9,7,5,6
   \end{itemize}
 \end{frame}

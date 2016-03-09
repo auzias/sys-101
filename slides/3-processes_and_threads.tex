@@ -47,7 +47,7 @@
             \item Student: CPU, phone-skill: program, phone: resource, phone call details: data, action: process.
           \end{itemize}
         \end{itemize}
-	A process is an activity having a program, input, output and a state. OS uses scheduling algorithm to determines when to stop/start which process.
+	A process is an activity having a program, input(s), output(s) and a state. OS uses scheduling algorithm to determines when to stop/start which process.
   \end{frame}
 
   \begin{frame}
@@ -143,7 +143,9 @@
   \begin{frame}
     \frametitle{Q/A}
     \begin{itemize}
-      \item Why interruption handler are usually written in ASM? % Higher-level languages do not allow the hardware access needed.
-      \item What is an advantage and a inconvenient to implement thread in user space? % no need to trap but if a thread is blocked it stays blocked.
+        \item Why interruption handler are usually written in ASM? % Higher-level languages do not allow the hardware access needed.
+        \item Process states: can a process go directly from [Blocked] to [Running], or from [Ready] to [Blocked]? % [Blocked] -> [Running] if I/O is done and CPU is idle, [Ready] -> [Blocked] is not possible
+        \item Why would a thread give up its CPU time, call a thread\_yield? % Thread cooperate, they usually are written by the same programmer. If a thread need to free some CPU time for other thread, it's ok.
+        \item What is an advantage and a inconvenient to implement thread in user space? % no need to trap but if a thread is blocked it stays blocked.
     \end{itemize}
   \end{frame}
