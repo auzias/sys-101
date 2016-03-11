@@ -59,7 +59,7 @@
           \item \textbf{UID}\footnote{User Identification} is a unique number assigned to each system user.
           \item Every process started has the UID of the user who started it.
           \item Every child process has the UID of its parent.
-          \item One UID is called the super-user. The super-user has all permission.
+          \item One UID is called the super-user. The super-user has \textbf{almost} all permissions.
           \item Users may also be members of groups. Each group has a \textbf{GID}.
         \end{itemize}
       \end{block}
@@ -204,7 +204,7 @@
   \begin{frame}
     \frametitle{Q/A}
     \begin{itemize}
-      \item Why is the use of a process table in a timesharing system? Is it needed in single-process systems? % This table is needed to save the state of a suspended process. It's useless for single-process systems as the processes are not suspended
+      \item What is the use of a process table in a timesharing system? Is it needed in single-process systems? % This table is needed to save the state of a suspended process. It's useless for single-process systems as the processes are not suspended
       \item Why do process trees not usually last for years? % It would require the system not to be rebooted
       \item In which situation a file tree would last for a few minutes? % Temporary files
       \item How to recognize a virus permission? % read the slides, and think a little bit
