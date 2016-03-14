@@ -5,7 +5,7 @@
   \begin{block}{Challenges}
     \begin{itemize}
       \item How to store very large amount of data?
-      \item How to store it after {\emph the} process has been killed?
+      \item How to store data after {\emph the} process has been killed?
       \item How to allow multiple processes to access it concurrently?
     \end{itemize}
   \end{block}
@@ -59,12 +59,10 @@
 
 \begin{frame}
   \frametitle{Files Types}
-  \begin{block}{File Types}
+  \begin{block}{Regular Files}
     \begin{itemize}
-      \item Regular files (ASCII or binary files).
-      \item Names length varies from 1 to 255 characters.
-      \item Case-sensitive (UNIX), or not (MS-DOS).
-      \item Extension consideration.
+      \item ASCII
+      \item Binary files
     \end{itemize}
   \end{block}
 \end{frame}
@@ -117,7 +115,7 @@
       \item Sequential access: files were read from the beginning to the end (magnetic tape).
       \item Random access files: files can be read in any order. To choose the position in the file and read you can:
       \begin{itemize}
-          \item Give the position as a parameter at teach read operation,
+          \item Give the position as a parameter at each read operation,
           \item Seek at a specific position and then sequentially read (UNIX and Windows).
       \end{itemize}
     \end{itemize}
@@ -126,7 +124,7 @@
 \begin{frame}
     \frametitle{File Attributes (Metadata)}
     \begin{itemize}
-      \item Right: who and how can the file be accessed.
+      \item Rights: who and how can the file be accessed.
       \item Password: required to access the file.
       \item Creator: ID of the user who created the file.
       \item Owner: ID of the user who owns the file.
@@ -261,7 +259,7 @@
     \begin{block}{Drawbacks}
         \begin{itemize}
             \item Fragmentation.
-            \item Disk space.
+            \item Disk space wasted.
             \item What about a file becoming bigger?
         \end{itemize}
     \end{block}
@@ -273,7 +271,7 @@
     \begin{block}{Advantages}
         \begin{itemize}
             \item Every block of the disk can be used (no waste, no fragmentation).
-            \item Directories entry only need to store the disk address of the first block (no matter how big are the files).
+            \item Directories entries only need to store the disk address of the first block (no matter how big are the files).
         \end{itemize}
     \end{block}
     \begin{block}{Drawbacks}
@@ -290,7 +288,7 @@
 
 \begin{frame}
     \frametitle{Implementing Files: linked list allocation using a table in memory}
-    Let's put the pointers and put them in a table in memory (FAT).
+    Let's put the pointers in a table in memory (FAT).
     \begin{block}{Advantages}
         \begin{itemize}
             \item Every block of the disk can be used (no waste, no fragmentation).
@@ -324,7 +322,7 @@
     \frametitle{Implementing Directories}
     Main function of directories: map the ASCII name of the file onto the information needed to locate the data.
     \begin{itemize}
-        \item Directories entry provide the needed details to find file's disk blocks
+        \item Directories entries provide the needed details to find file's disk blocks
             \begin{itemize}
                 \item Disk address of the entire file,
                 \item Number of the first block,
@@ -351,13 +349,13 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Shared Files}
-    \begin{itemize}
-        \item Disk blocks are listed in a data structure\footnote{the i-node in Linux} associated with the shared file, not in directories.
-        \item Symbolic linking.
-    \end{itemize}
-\end{frame}
+%\begin{frame}
+%    \frametitle{Shared Files}
+%    \begin{itemize}
+%        \item Disk blocks are listed in a data structure\footnote{the i-node in Linux} associated with the shared file, not in directories.
+%        \item Symbolic linking.
+%    \end{itemize}
+%\end{frame}
 
 \begin{frame}
     \frametitle{Other File Systems}
@@ -391,11 +389,9 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Questions}
+    \frametitle{Q/A}
     \begin{enumerate}
-      \item Why a magic number is giver for executable files whereas random ones are given to other files (UNIX - old versions)?
+      \item Why a magic number is given for executable files whereas random ones are given to other files (UNIX - old versions)?
             % The magic number is the `BRANCH` instruction that is the first word of the file. Thus the file can be charged in memory and executed without knowing the size of the header!
-      \item Is \emph{open} required? Is there a way to avoid this and used \emph{read} or \emph{write} without calling \emph{open}?
-            % open load the i-node in memory, without it you have to: 1) specify the path at each read/write, 2) load the i-node every time (even though it could be in the memory)
     \end{enumerate}
 \end{frame}

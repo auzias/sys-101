@@ -29,11 +29,9 @@
         \item Relocation
       \end{itemize}
     \end{block}
-    \begin{block}{Address space?}
+    \begin{block}{Solution?}
       \begin{itemize}
-        \item IP address
-        \item Phone numbers
-        \item Internet domain (.com, .net)
+        \item Address space! (just like IP addresses, phone numbers, Internet domain (.com, .net)).
       \end{itemize}
     \end{block}
   \end{frame}
@@ -70,8 +68,8 @@
   \begin{frame}
     \frametitle{Page Replacement Algorithms}
     \begin{itemize}
-      \item optimal\footnote{easy to explain, impossible to implement on \emph{first} run}: remove the last referenced page. The OS has no way of knowing when each of the pages will be referenced next.
-      \item not-recently-used: randomly removed one page of the lowest-numbered non empty class (classed thanks to R (referenced-flag) and M (modified-flag)):
+      \item Optimal\footnote{easy to explain, impossible to implement on \emph{first} run}: the OS select the furthest referenced page, but it has no way of knowing when each page will be referenced in the future.
+      \item Not-recently-used: randomly removed one page of the lowest-numbered non empty class (classed thanks to R (referenced-flag) and M (modified-flag)):
       \begin{itemize}
         \item Class 0: not referenced, not modified
         \item Class 1: not referenced, modified
@@ -85,16 +83,16 @@
     \frametitle{Page Replacement Algorithms}
     \begin{itemize}
       \item FIFO: First-In, First-Out (can throw out a heavily used page).
-      \item second-chance: to not throw out a heavily used page, R-flag is inspected on the oldest pages. The algorithm seek for old pages that has not been referenced in the most recent clock interval.
-      \item clock: circular-list contains the pages, the oldest is always pointed. If its R-flag is 1, it is cleared and the next is pointed, when a page with R-flag cleared is found it is replaced.
+      \item Second-chance: to not throw out a heavily used page, R-flag is inspected on the oldest pages. The algorithm seek for old pages that has not been referenced in the most recent clock interval.
+      \item Clock: circular-list contains the pages, the oldest is always pointed. If its R-flag is 1, it is cleared and the next is pointed, when a page with R-flag cleared is found it is replaced.
     \end{itemize}
   \end{frame}
 
   \begin{frame}
     \frametitle{Page Replacement Algorithms}
     \begin{itemize}
-      \item least-recently-used: recently heavily used page will probably be reused and pages not used for ages probably won't be. Longest unused page is replaced. Heavy algorithm: the list of pages must be updated at every memory reference. Special hardware does exist to do so.
-      \item working-set: pages are loaded only on demand, not in advance. A process having a working-set won't cause page fault until it moves into another execution phase.
+      \item Least-Recently-Used: recently heavily used page will probably be reused and pages not used for ages probably won't be. Longest unused page is replaced. Heavy algorithm: the list of pages must be updated at every memory reference. Special hardware does exist to do so.
+      \item Working-set: pages are loaded only on demand, not in advance. A process having a working-set won't cause page fault until it moves into another execution phase.
       \item WSClock: based on the clock algorithm and the working-set.
     \end{itemize}
   \end{frame}
@@ -133,4 +131,15 @@
       \end{itemize}
 
     \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Q/A}
+    \begin{itemize}
+      \item For static relocation, where is stored the constant of the constant added? %base register: see slide Memory abstraction:address spaces
+      \item What does happen if a program references a memory address that is not within its address space? %A fault (seg_fault)
+      \item How is a process address space delimited? %Baseregister + limit register
+      \item When does a page fault occur? %process references an address that is not stored in the memory
+      \item What is the use of a page replacement algorithm? %select the page to swap to free physical memory
+    \end{itemize}
   \end{frame}

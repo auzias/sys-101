@@ -53,25 +53,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Deadlock}
-  \begin{block}{Deadlock conditions, Coffman et al. (1971)}
-    \begin{enumerate}
-      \item Mutual exclusion condition. Each resource is either currently assigned to exactly one process or is available.
-      \item Hold and wait condition. Processes currently holding resources that were granted earlier can request new resources.
-      \item No preemption condition. Resources previously granted cannot be forcibly taken away from a process. They must be explicitly released by the process holding them.
-      \item Circular wait condition. There must be a circular chain of two or more processes, each of which is waiting for a resource held by the next member of the chain.
-    \end{enumerate}
-  \end{block}
-\end{frame}
-
-\begin{frame}
   \frametitle{Deadlock modelisation}
-  \begin{itemize}
-    \item Mutual exclusion\footnote{Mutex: Mutual Exclusion} condition. Each resource is either currently assigned to exactly one process or is available.
-    \item Hold and wait condition. Processes currently holding resources that were granted earlier can request new resources.
-    \item No preemption condition. Resources previously granted cannot be forcibly taken away from a process. They must be explicitly released by the process holding them.
-    \item Circular wait condition. There must be a circular chain of two or more processes, each of which is waiting for a resource held by the next member of the chain.
-  \end{itemize}
   \begin{block}{Schematic Representation}
     \begin{itemize}
       \item \emph{P0} \underline{requests} the resource \emph{R0}: (\emph{P0}) $\longrightarrow$ [\emph{R0}]
@@ -100,7 +82,11 @@
     Assign a resource when that is absolutely necessary. Make sure that as few processes as possible claim the resource.
   \end{block}
   \begin{block}{Hold and Wait}
-    All resources are requested before the program starts. Problems stemming from this: 1. a program may not know the needed set of resources, 2. resources will not be optimally used.\\
+    All resources are requested before the program starts. Problems stemming from this:
+    \begin{enumerate}
+      \item a program may not know the needed set of resources,
+      \item resources will not be optimally used.
+    \end{enumerate}
     Another way to break this is: a process requesting a resource first temporarily releases all the resources it currently holds, then tries to get everything it needs all at once.
   \end{block}
 \end{frame}
