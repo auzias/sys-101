@@ -103,7 +103,7 @@
     \item What is a trap instruction, its difference with an interuption? % there is not sync between a program and an interruption, whereas a trap instruction is performed by a program itself.
     \item What is the purpose of a system call in an operating system? % sys-calls allow a user process to access kernel function.
     \item Reading a file is a blocking operation. Should writing a file be a blocking operation too? % Depends: if the program overrides the buffer right after the call the written data may be corrupted. If the kernel copies the buffer before returning into the program it does not have to block. Also, what about returning an error if not blocking?
-    \item If {\scriptsize open()} and {\scriptsize close()} would be removed from the system calls, what changes would that imply?
+    \item If {\scriptsize open()} and {\scriptsize close()} would be removed from the system calls, what changes would be implied?
     \item What are the buffered data after these instructions:
     \begin{itemize}
         \item lseek(df, 3, SEEK\_SET);

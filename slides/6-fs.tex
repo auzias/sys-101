@@ -216,7 +216,7 @@
       \item At boot time, the BIOS reads and executes the MBR, the MBR program locates the active partition, reads its first block (boot block) and execute it.
       \item The boot block loads the OS contained in that partition.
         \begin{itemize}
-          \item All partition contains a boot block, even if it does not contain a bootable OS.
+          \item All partitions contain a boot block, even if it does not contain a bootable OS.
         \end{itemize}
   \end{itemize}
 \end{frame}
@@ -393,5 +393,7 @@
     \begin{enumerate}
       \item Why a magic number is given for executable files whereas random ones are given to other files (UNIX - old versions)?
             % The magic number is the `BRANCH` instruction that is the first word of the file. Thus the file can be charged in memory and executed without knowing the size of the header!
+      \item Does the rename() system call differ with the copy-then-remove operations?
+            % Yes: the creation date is changed, if the disk is full it will fail, and it is slower to perform.
     \end{enumerate}
 \end{frame}
