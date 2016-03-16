@@ -94,7 +94,19 @@
           <li>Check the permissions of your homedir</li>
           <li>Check if a user allow you to list its homedir</li>
         </ol>
+        <li>System call</li>
+        <ol>
+          <li>What does the command `strace` do?</li>
+          <li>Assuming that one output line of `strace` is one system call:
+            <ol>
+              <li>Does the number of system calls differ to copy a big or a small file? What about mv or cat?</li>
+              <li>What is the command with the lowest, and the one with the biggest, number of system call between: rm, cp, touch, ls, mv, cat</li>
+            </ol>
+            The command "dd if=/dev/zero of=/tmp/rm bs=8k count=2000 && sync" could help you.
+          </li>
+        </ol>
     </ol>
+
 	</div>
 	<hr/>
 	<div id="cc">
