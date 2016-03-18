@@ -64,7 +64,7 @@
             <li>Trouver les zombies: identification des processus en état "zombie".</li>
             <li>Déterminer quel est le parent de chacun de ces zombies.</li>
             <li>Tuer ce parent avec l'arme correspondant au PID.</li>
-        <ol>
+        </ol>
         <p>Ce projet sous Linux et en C est possible en lisant les fichiers /proc/[1-9]*/status pour trouver les processus zombies et un getppid() pour trouver le processus parent. Cf `$man proc` et `$man getppid`.<br>
         Une version améliorée d'une version avec un seul thread tuant les zombies pourrait être d'avoir:</p>
         <ul>
