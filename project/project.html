@@ -29,21 +29,43 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Project</h1>
+        <h1>Project ZombiLand</h1>
         <p class="lead">Feel free to send any course-related request to: <u>teaching<small> [at] </small>auzias<small> [dot] </small>net</u></p>
       </div>
 	<hr/>
 	<div id="material">
 		<h1>Présentation</h1>
         <h2>Présentation générale</h2>
+	<p> ZombiLand est un projet de simulation de l'apocalypse sur votre PC. 
+	Le principe est simple une vague de zombies veut un smoothie de cerveau et vous êtes le seul fournisseur. Votre seul moyen de survie est donc 		de tuer tous ces zombies avec les trois armes à votre disposition.
+        D'un point de vue informatique cela donne donc des processus Zombies et un programme en C qui modélise votre survivant. 
+
+	</p>
 
         <h2>Présentation technique</h2>
+	<p>
+	Les processus Zombies sont des processus déjà morts mais dont les parents attendent toujours quelque chose. 
+	Comme ils sont morts ,ils  ne sont plus tuables. Pour terminer un processus zombie il faut tuer son parent.</br></br>
+
+	En C pour trouver les processus Zombie et parent, la fonction System PROC vous sera utile. 
+	De plus les Parents de Zombie ne sont tuables que d'une certaine façon :</br>
+	Zombies avec PID de 0 mod 3 sont vulnerables aux handguns</br>
+	Zombies avec PID de 1 mod 3 sont vulnerables aux knives</br>
+	Zombies avec PID de 2 mod 3 sont vulnerables aux shotguns</br>
+
+	</p>
 
         <h2>Ce qui est fourni</h2>
+        <p>
+           Pour ce faire, vous avez de fourni le programme qui crée les zombies, ainsi que les différentes armes.
+
+         <a rel ="ressource git"  href ="https://5.135.166.45:8443/summary/Zombie.git">Ici le git</a>
+	</p>
 
 
         <h1>Travail à faire</h1>
-
+	Vous devez donc créer le programme du survivant en C. Vous devez eliminer au mieux les zombies, simplement cela. 
+	Une fois cela fait restez branchés d'autres  niveaux du programme sortiront. 
 
 
 	</div>
