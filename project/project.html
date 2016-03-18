@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="practice/practice.html">Practice</a></li>
-            <li><a href="project/project.html">Practice</a></li>
+            <li><a href="project/project.html">Project</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -34,38 +34,44 @@
       </div>
 	<hr/>
 	<div id="material">
+        <p class="lead">Ce projet a été proposé et organisé par les élèves. Cette page est une version corrigée de leur rédaction pour présenter le sujet.</p>
+        <hr/>
+
 		<h1>Présentation</h1>
         <h2>Présentation générale</h2>
-	<p> ZombiLand est un projet de simulation de l'apocalypse sur votre PC. 
-	Le principe est simple une vague de zombies veut un smoothie de cerveau et vous êtes le seul fournisseur. Votre seul moyen de survie est donc 		de tuer tous ces zombies avec les trois armes à votre disposition.
-        D'un point de vue informatique cela donne donc des processus Zombies et un programme en C qui modélise votre survivant. 
-
-	</p>
+        <p>ZombiLand est un projet de simulation d'externimasion de [processus] zombies sur votre PC.<br/>
+        Le principe est simple une vague de zombies est créé par le programme <a href="project/src/MaitreZombie.c">MaitreZombie.c</a> et vous devrez défendre votre système d'exploitation en tuant ces zombies. <a href="project/src/">Trois armes différentes</a> à votre disposition sous forme de programme C.
+        </p>
 
         <h2>Présentation technique</h2>
-	<p>
-	Les processus Zombies sont des processus déjà morts mais dont les parents attendent toujours quelque chose. 
-	Comme ils sont morts ,ils  ne sont plus tuables. Pour terminer un processus zombie il faut tuer son parent.</br></br>
-
-	En C pour trouver les processus Zombie et parent, la fonction System PROC vous sera utile. 
-	De plus les Parents de Zombie ne sont tuables que d'une certaine façon :</br>
-	Zombies avec PID de 0 mod 3 sont vulnerables aux handguns</br>
-	Zombies avec PID de 1 mod 3 sont vulnerables aux knives</br>
-	Zombies avec PID de 2 mod 3 sont vulnerables aux shotguns</br>
-
-	</p>
+        <p>Les processus Zombies sont des processus déjà terminés dont les parents attendent toujours un changement d'état. Étant terminé, un processus zombie ne peut être tué via des envoies de signaux et ils ne sont plus tuables. Pour nettoyer un processus zombie il faut donc tuer son parent.</p>
+        <p>En C pour trouver les processus Zombie et parent, la fonction System PROC vous sera utile. De plus les Parents de Zombie ne sont tuables que d'une certaine façon :</p>
+        <ol>
+            <li>Zombies avec PID de 0 mod 3 sont vulnerables aux handguns</li>
+            <li>Zombies avec PID de 1 mod 3 sont vulnerables aux knives</li>
+            <li>Zombies avec PID de 2 mod 3 sont vulnerables aux shotguns</li>
+        <ol>
+        <p>Il est possible de tuer tous les zombies d'un coup en envoyant un signal INT au binaire MaitreZombie.</p>
 
         <h2>Ce qui est fourni</h2>
         <p>
-           Pour ce faire, vous avez de fourni le programme qui crée les zombies, ainsi que les différentes armes.
-
-         <a rel ="ressource git"  href ="https://5.135.166.45:8443/summary/Zombie.git">Ici le git</a>
-	</p>
+           Pour ce faire, vous avez à disposition le programme qui crée les zombies, ainsi que les différentes armes. <a rel="ressource git"  href="https://5.135.166.45:8443/summary/Zombie.git">Programmes à jours disponibles ici</a>.</p>
 
 
         <h1>Travail à faire</h1>
-	Vous devez donc créer le programme du survivant en C. Vous devez eliminer au mieux les zombies, simplement cela. 
-	Une fois cela fait restez branchés d'autres  niveaux du programme sortiront. 
+        <p>Vous devez donc créer un programme tuant les parents des zombies. Vous devrez pour cela:</p>
+        <ol>
+            <li>Trouver les zombies: identification des processus en état "zombie".</li>
+            <li>Déterminer quel est le parent de chacun de ces zombies.</li>
+            <li>Tuer ce parent avec l'arme correspondant au PID.</li>
+        <ol>
+        <p>Ce projet sous Linux et en C est possible en lisant les fichiers /proc/[1-9]*/status pour trouver les processus zombies et un getppid() pour trouver le processus parent. Cf `$man proc` et `$man getppid`.<br>
+        Une version améliorée d'une version avec un seul thread tuant les zombies pourrait être d'avoir:</p>
+        <ul>
+            <li>Un thread pour chercher les zombies.</li>
+            <li>Un thread pour tuer les zombies (ou trois, un thread par arme).</li>
+            <li>Un thread vérifiant la création de nouveaux zombies.</li>
+        </ul>
 
 
 	</div>
