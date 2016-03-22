@@ -102,9 +102,9 @@
   \frametitle{DMA}
   \begin{block}{With DMA}
     \begin{enumerate}
-      \item the CPU programs the DMA controller through the DMA registers.
-      \item When valid data are in the disk controller's buffer the DMA controller ..
-      \item .. initiates the transfer with a \emph{read} request.
+      \item The CPU programs the DMA controller through the DMA registers.
+      \item The disk copies the data into its buffer
+      \item The DMA controller initiates the transfer with a \emph{read} request.
       \item When the write (from buffer into memory) is complete, the disk controller sends a signal to the DMA controller.
       \item The DMA controller, once all the \emph{read}-operations are done, interrupts the CPU.
     \end{enumerate}
@@ -117,10 +117,10 @@
     \begin{itemize}
       \item Some DMA can handle several transfers at once, each controllers having one channel for each sets of internal registers.
       \item Some DMA can operate in word-at-a-time mode and block mode.
-      \item In block mode the DMA can tell the device to acquire the bus and perform a series of transfers, then release the bus. This is called "burst mode".
+      \item In block mode the DMA can tell the device to acquire the bus and perform a serie of transfers, then release the bus. This is called "burst mode".
     \end{itemize}
   \end{block}
-  If the CPU needs the bus it has to wait. This mechanism is called "cycle stealing".
+  If the CPU needs the bus then it has to wait. This mechanism is called "cycle stealing".
 \end{frame}
 
 \begin{frame}
@@ -155,19 +155,6 @@
     \item From this point, traps and interrupts use the same mechanism and usually share the same interrupt vector.
     \item After the interrupt service procedure starts, the interruption is acknowledged so the controller can fire another interrupt.
   \end{enumerate}
-  By delaying the acknowledgement a race-condition is avoided.
-\end{frame}
-
-\begin{frame}
-  \frametitle{Interrupts}
-  \begin{block}{Information saved before starting the service procedure}
-    \begin{itemize}
-      \item Program counter,
-      \item The program counter points to the start of the interrupt service procedure.
-      \item From this point, traps and interrupts use the same mechanism and usually share the same interrupt vector.
-      \item After the interrupt service procedure starts, the interruption is acknowledged so the controller can fire another interrupt.
-    \end{itemize}
-  \end{block}
 \end{frame}
 
 \begin{frame}
@@ -177,7 +164,7 @@
     \item The program counter is saved in a known place.
     \item All instructions before the one pointed to by the PC have been fully executed.
     \item No instruction beyond the PC has been executed.
-    \item The execution state of the instruction pointer to by the PC is known.
+    \item The execution state of the instruction pointed to by the PC is known.
   \end{enumerate}
   If an interrupt does not meet these properties, it is called an imprecise interrupt.
 \end{frame}
@@ -186,9 +173,9 @@
   \frametitle{I/O Software}
   \begin{block}{Key concepts}
     \begin{itemize}
-      \item Device independence: a program that reads a file should not have a different procedure to read a file form the disk, or a USB stick, or the keyboard.
+      \item Device independence: a program that reads a file should not have a different procedure to read a file from the disk, or a USB stick, or the keyboard.
       \item Uniform naming: file name should be a string and should not depend on the device.
-      \item Error handling: errors should be handle as close as the hardware as possible.
+      \item Error handling: errors should be handled as close as the hardware as possible. Why? % Faster, and more chances to correct the error
     \end{itemize}
   \end{block}
 \end{frame}
@@ -199,7 +186,7 @@
     \begin{itemize}
       \item Synchronous blocking: the OS should make I/O operations look like blocking as it is easier to program.
       \item Buffering: network packet or audio streams, just like many other, need to be buffered. The OS should take care of that.
-      \item Sharable/dedicated device: while some I/O devices can be used by many users at the time (NIC, HDD), some cannot (printer). The OS must handle the stemming issues.
+      \item Sharable/dedicated devices: while some I/O devices can be used by many users at the same time (NIC, HDD), some cannot (printer). The OS must handle the stemming issues.
     \end{itemize}
   \end{block}
 \end{frame}
@@ -209,7 +196,7 @@
   \begin{block}{Performing an I/O}
     \begin{itemize}
       \item Programmed I/O: the CPU does all the work so it's simple, but the polling, or busy waiting, makes it is costly.
-      \item Interrupt-driven I/O: the process requesting the I/O operation is blocked until the operation is done, unless the CPU that can execute other process waiting for the next interruption coming from the device. Usually an interruption occurs at every character and takes time to be executed.
+      \item Interrupt-driven I/O: the CPU starts an I/O transfer for a character or word and goes off to do something else until an interrupt arrives signaling completion of the I/O.
       \item I/O using DMA: the DMA feed the characters to the device to let the CPU free. Interrupt number is down from one per character to one per buffer.
     \end{itemize}
   \end{block}
