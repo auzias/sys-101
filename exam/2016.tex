@@ -1,0 +1,202 @@
+\documentclass[11pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[margin=2cm, tmargin=2cm]{geometry}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{paralist}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+\usepackage{wasysym}
+
+\begin{document}
+\noindent First name: \hfill {\scshape ensibs}, Vannes, 2016-03-30 \\
+Last name: \\
+\Square {\scshape cyber} \Square {\scshape info}
+\begin{center}
+	{\LARGE{System 101 Evaluation}} \\ \vspace{10pt}
+	\textbf{One handwritten} A4 sheet double sided allowed but no communication \textbf{at all}! \\
+	\textbf{Short} and right answers are the best, \underline{no need to debate, nor philosophize}, grammatically and orthographically correct in either French or English. \\
+	Final marking scheme may vary. \\
+	Good luck!
+\end{center}
+
+\section{What is an OS? (6pts)}
+	\begin{enumerate}
+		\item What are the two basic unrelated functions of an OS? %cf slide #6
+		\vspace{1cm}
+		\item Who are the customers? %cf slide #6
+		\vspace{1cm}
+		\item Name three types of hardware on which an OS run: %cf slide 10-11, OS Zoo
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{OS Concepts (8 pts)}
+	\begin{enumerate}
+		\item What do UID and GID stands for? Are they unique? %cf slide #18
+		\vspace{1cm}
+		\item Which metadata of a file does uniquely identify it? %the path
+		\vspace{1cm}
+		\item Can several files share the same name? %yes.
+		\vspace{1cm}
+		\item Can several files sharing the same name be in the same directory? %no!
+		\vspace{1cm}
+		\item In which data structure are organized files/directories and processes? %tree
+		\vspace{1cm}
+		\item What is the use of pipe? %IPC
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{Processes and Thread (10 pts)}
+	\begin{enumerate}
+		\item What are the two voluntary termination ways of a process? %cf slide #34
+		\vspace{1cm}
+		\item What are the two involuntary termination ways of a process? %cf slide #34
+		\vspace{1cm}
+		\item Draw the diagram of process state that links the process states [Running], [Ready], [Blocked] and the transitions (Scheduler pick another process), (Scheduler pick this process), (Input available), (Input required). %cf slide #35
+		\vspace{5cm}
+		\item What is a race condition (definition or example with emphasis on the cause of the issue)? %
+		\vspace{3cm}
+		\item Why interruption handlers are usually written in ASM?
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{System calls (4 pts)}
+	\begin{enumerate}
+		\item What is the system call that reposition the pointer within a file? %cf slide #45
+		\vspace{1cm}
+		\item What is the system call that send a signal to a process? %cf slide #45
+		\vspace{1cm}
+		\item What is a trap instruction? %cf slide #??
+		\vspace{1cm}
+		\item Why devices should be accessed through the same system calls used with files? %To ease programming
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{Memory (8 pts)}
+	\begin{enumerate}
+		\item What does cause a segmentation fault? How does the OS handle it? %cf slide #51
+		\vspace{1cm}
+		\item How does the free memory can be managed? %cf slide #52
+		\vspace{2cm}
+		\item What is a page? %cf slide #53
+		\vspace{1cm}
+		\item When does a page fault occur? %cf slide #53
+		\vspace{1cm}
+		\item Name three page replacement algorithms and explain one. %cf slide #54-56
+		\vspace{1cm}
+		\item What is the use of segmentation? %cf slide #59
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{File System (16 pts)}
+	\begin{enumerate}
+		\item What are the two types of file? %cf slide #68
+		\vspace{1cm}
+		\item What are the two types of file access? %cf slide #72
+		\vspace{1cm}
+		\item From the directory named \emph{dir}, what would the command "cd ../dir" do? %nothing (change the WG into the current one)
+		\vspace{1cm}
+		\item What is an explicit path? %cf slide #78
+		\vspace{1cm}
+		\item What is an implicit path? %cf slide #78
+		\vspace{1cm}
+		\item What is an absolute path? %cf slide #78
+		\vspace{1cm}
+		\item What is a relative path? %cf slide #78
+		\vspace{1cm}
+		\item What does ".." represent? %cf slide #78
+		\vspace{1cm}
+		\item What does "." represent? %cf slide #78
+		\vspace{1cm}
+		\item Name two different means of implementation to keep track of which disk block match with which file. %cf slide #82
+		\vspace{1cm}
+		\item Name one advantage and one drawback of contiguous allocation. %cf slide #83
+		\vspace{1cm}
+		\item What does the "i" in i-nodes stand for? %Index node
+		\vspace{1cm}
+		\item What is named virtual file system? %cf slide 90
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{Input/Output (4 pts)}
+	\begin{enumerate}
+		\item What is a DMA? %cf slide #99
+		\vspace{1cm}
+		\item What is called "cycle stealing"? %cf slide #101
+		\vspace{1cm}
+		\item Why do disks need an intern buffer? %cf slide #101
+		\vspace{1cm}
+		\item Why do errors should be handled as close as the hardware as possible? %cf slide #106 responsiveness + more chance to be able to handle the error
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{Deadlock (5 pts)}
+	\begin{enumerate}
+		\item What is a deadlock (example or former definition)? %cf slide #110 - 111
+		\vspace{1cm}
+		\item According to: %cf slide #114 : yes there is
+		\begin{enumerate}
+			\item \emph{p0} owns {\scshape b}, {\scshape i} and requests {\scshape c}, {\scshape e}.
+			\item \emph{p1} owns {\scshape d} and requests {\scshape f}, {\scshape a}.
+			\item \emph{p2} owns {\scshape g} and requests {\scshape h}.
+			\item \emph{p3} owns {\scshape f}, and requests {\scshape b}.
+			\item \emph{p4} owns nothing and requests {\scshape c}.
+			\item \emph{p5} owns {\scshape h}, {\scshape c} and requests {\scshape d}.
+		\end{enumerate}
+		Is there a deadlock? If so, list the involved processes and resources? %p0, p1, p3, p5 :: F, B, C, D
+		\vspace{1cm}
+		\item Give two solutions to prevent a deadlock? %cf slide #116 - 117
+		\vspace{2cm}
+		\item What does mean starvation? %cf slide #119
+		\vspace{1cm}
+	\end{enumerate}
+
+\section{Virtualization and Containerization (5 pts)}
+	\begin{enumerate}
+		\item Give two differences between virtualization and containerization. %cf slide #127
+		\vspace{1cm}
+		\item Name two tools for virtualization. %cf slide #119
+		\vspace{1cm}
+		\item What is the difference between a Docker image and a Docker container? %cf slide #129
+		\vspace{1cm}
+	\end{enumerate}
+
+\pagebreak
+\section{True or False? (11 pts)}
+	\begin{table}[h]
+	  \centering
+	      \begin{tabular}{|l|r|l|}
+			  \hline
+	      		\textbf{Statement} &	\textbf{True}	& \textbf{False} \\ \hline
+		      		A process always has a working directory &	& \\ \hline
+		      		A process always has a UID &	& \\ \hline
+		      		A process always has a GID &	& \\ \hline
+					Can the user www-data acces the file: & & \\ % Lazy multi lines
+					-rw-r--r-- 1 auzias auzias 104K Mar 24 14:18 exam.pdf &	& \\ \hline
+		      		As for the rights, user is anyone who want to \emph{use} the resource &	& \\ \hline
+		      		Group's rights exclude the user &	& \\ \hline
+		      		Other's rights exclude the group &	& \\ \hline
+		      		Other's rights exclude the user &	& \\ \hline
+		      		Threads are heavier than processes &	& \\ \hline
+		      		On every OS, file names are not case-sensitive &	& \\ \hline
+		      		You did not read this statement &	& \\ \hline
+	      \end{tabular}
+	      \caption{False or True?}
+	  \label{tab:routing}
+	\end{table}
+
+\section{Bonus (0 pts)}
+Any comment on the lesson, slides, anything to say about the course? Advice or suggestion to give? Feel free!
+
+
+
+
+
+
+
+
+\end{document}
